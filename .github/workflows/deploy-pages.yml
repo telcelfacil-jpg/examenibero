@@ -1,0 +1,50 @@
+name: Deploy ExamenIbero To GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare static artifact
+        run: |
+          mkdir -p dist-pages
+          cp index.html dist-pages/
+          cp -r css dist-pages/css
+          cp -r data dist-pages/data
+          cp -r infoexterna dist-pages/infoexterna
+          cp -r js dist-pages/js
+          cp -r lessons dist-pages/lessons
+          touch dist-pages/.nojekyll
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist-pages
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

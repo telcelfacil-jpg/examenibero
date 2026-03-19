@@ -1,0 +1,5945 @@
+[
+    {
+        "id": "eng_q1",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Present Simple vs Continuous",
+        "pregunta": "I ________ (read) a very interesting book at the moment.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "read"
+            },
+            {
+                "id": "b",
+                "texto": "am reading"
+            },
+            {
+                "id": "c",
+                "texto": "reads"
+            },
+            {
+                "id": "d",
+                "texto": "am read"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Usamos el Presente Continuo (am reading) para acciones que están ocurriendo 'en este momento' (at the moment)."
+    },
+    {
+        "id": "eng_q2",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Present Simple vs Continuous",
+        "pregunta": "She ________ (go) to the gym every morning.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "is going"
+            },
+            {
+                "id": "b",
+                "texto": "go"
+            },
+            {
+                "id": "c",
+                "texto": "goes"
+            },
+            {
+                "id": "d",
+                "texto": "going"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Usamos el Presente Simple (goes) para rutinas y hábitos (every morning)."
+    },
+    {
+        "id": "eng_q3",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Everyday Vocabulary",
+        "pregunta": "Where do you cook your meals?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "In the bedroom"
+            },
+            {
+                "id": "b",
+                "texto": "In the kitchen"
+            },
+            {
+                "id": "c",
+                "texto": "In the bathroom"
+            },
+            {
+                "id": "d",
+                "texto": "In the garage"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La cocina (kitchen) es el lugar designado para preparar alimentos."
+    },
+    {
+        "id": "eng_q4",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Everyday Vocabulary",
+        "pregunta": "You go to this place when you are sick and need a doctor:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Library"
+            },
+            {
+                "id": "b",
+                "texto": "School"
+            },
+            {
+                "id": "c",
+                "texto": "Hospital"
+            },
+            {
+                "id": "d",
+                "texto": "Bank"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El hospital es el lugar para recibir atención médica."
+    },
+    {
+        "id": "eng_q5",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Present Simple vs Continuous",
+        "pregunta": "Listen! The baby ________ (cry).",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "cries"
+            },
+            {
+                "id": "b",
+                "texto": "is crying"
+            },
+            {
+                "id": "c",
+                "texto": "crying"
+            },
+            {
+                "id": "d",
+                "texto": "is cry"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Usamos el Presente Continuo para acciones que están sucediendo ahora (Listen!)."
+    },
+    {
+        "id": "eng_q6",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Present Simple vs Continuous",
+        "pregunta": "Why ________ (you / wear) that heavy coat? It is not cold.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "do you wear"
+            },
+            {
+                "id": "b",
+                "texto": "are you wearing"
+            },
+            {
+                "id": "c",
+                "texto": "you are wearing"
+            },
+            {
+                "id": "d",
+                "texto": "you wear"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Se pregunta por una acción en progreso en el momento del habla."
+    },
+    {
+        "id": "eng_q7",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Present Simple vs Continuous",
+        "pregunta": "Water ________ (boil) at 100 degrees Celsius.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "is boiling"
+            },
+            {
+                "id": "b",
+                "texto": "boils"
+            },
+            {
+                "id": "c",
+                "texto": "boil"
+            },
+            {
+                "id": "d",
+                "texto": "boiling"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Usamos el Presente Simple para verdades universales y hechos científicos."
+    },
+    {
+        "id": "eng_q8",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Everyday Vocabulary",
+        "pregunta": "Which room is used for sleeping?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Dining room"
+            },
+            {
+                "id": "b",
+                "texto": "Bathroom"
+            },
+            {
+                "id": "c",
+                "texto": "Bedroom"
+            },
+            {
+                "id": "d",
+                "texto": "Attic"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El 'Bedroom' (dormitorio) es donde dormimos."
+    },
+    {
+        "id": "eng_q9",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Everyday Vocabulary",
+        "pregunta": "The place where you can borrow books for free is the:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Bookstore"
+            },
+            {
+                "id": "b",
+                "texto": "Library"
+            },
+            {
+                "id": "c",
+                "texto": "Office"
+            },
+            {
+                "id": "d",
+                "texto": "Pharmacy"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Library = Biblioteca (libros prestados), Bookstore = Librería (compra de libros)."
+    },
+    {
+        "id": "eng_q10",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Everyday Vocabulary",
+        "pregunta": "In the city, cars drive on the:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Sidewalk"
+            },
+            {
+                "id": "b",
+                "texto": "Street / Road"
+            },
+            {
+                "id": "c",
+                "texto": "Roof"
+            },
+            {
+                "id": "d",
+                "texto": "Bridge"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Los autos circulan por la calle (street) o carretera (road)."
+    },
+    {
+        "id": "eng_q11",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Present Simple vs Continuous",
+        "pregunta": "Look! The sun ________ (shine) again.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "shines"
+            },
+            {
+                "id": "b",
+                "texto": "is shining"
+            },
+            {
+                "id": "c",
+                "texto": "shining"
+            },
+            {
+                "id": "d",
+                "texto": "is shine"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Usamos el Presente Continuo para descripciones instantáneas de la naturaleza (Look!)."
+    },
+    {
+        "id": "eng_q12",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Present Simple vs Continuous",
+        "pregunta": "How often ________ (you / visit) your grandparents?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "are you visiting"
+            },
+            {
+                "id": "b",
+                "texto": "do you visit"
+            },
+            {
+                "id": "c",
+                "texto": "you visit"
+            },
+            {
+                "id": "d",
+                "texto": "do you visits"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Usamos el Presente Simple para preguntar sobre frecuencia (How often)."
+    },
+    {
+        "id": "eng_q13",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Everyday Vocabulary",
+        "pregunta": "This object is used in the kitchen to keep food cold:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Stove"
+            },
+            {
+                "id": "b",
+                "texto": "Fridge"
+            },
+            {
+                "id": "c",
+                "texto": "Sofa"
+            },
+            {
+                "id": "d",
+                "texto": "Sink"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El refrigerador (fridge) mantiene la comida fría."
+    },
+    {
+        "id": "eng_q14",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Everyday Vocabulary",
+        "pregunta": "A green area in the city where people go for walks:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Park"
+            },
+            {
+                "id": "b",
+                "texto": "Stadium"
+            },
+            {
+                "id": "c",
+                "texto": "Factory"
+            },
+            {
+                "id": "d",
+                "texto": "Museum"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "El parque es la zona de recreación verde en una ciudad."
+    },
+    {
+        "id": "eng_q15",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Present Simple vs Continuous",
+        "pregunta": "My sister ________ (not / like) coffee. She prefers tea.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "doesn't like"
+            },
+            {
+                "id": "b",
+                "texto": "isn't liking"
+            },
+            {
+                "id": "c",
+                "texto": "don't like"
+            },
+            {
+                "id": "d",
+                "texto": "not like"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "El verbo 'like' es un verbo de estado (stative verb) y se usa generalmente en Presente Simple."
+    },
+    {
+        "id": "eng_q16",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Present Simple vs Continuous",
+        "pregunta": "What ________ (you / do) these days? I'm working on a new project.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "do you do"
+            },
+            {
+                "id": "b",
+                "texto": "are you doing"
+            },
+            {
+                "id": "c",
+                "texto": "you are doing"
+            },
+            {
+                "id": "d",
+                "texto": "are you do"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Usamos el Presente Continuo para situaciones temporales o proyectos actuales ('these days')."
+    },
+    {
+        "id": "eng_q17",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Everyday Vocabulary",
+        "pregunta": "You go to this place to send letters and buy stamps:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Police Station"
+            },
+            {
+                "id": "b",
+                "texto": "Post Office"
+            },
+            {
+                "id": "c",
+                "texto": "Cinema"
+            },
+            {
+                "id": "d",
+                "texto": "Supermarket"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Post Office = Oficina de correos."
+    },
+    {
+        "id": "eng_q18",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Everyday Vocabulary",
+        "pregunta": "A piece of furniture in the kitchen for keeping food and drinks very cold:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Freezer"
+            },
+            {
+                "id": "b",
+                "texto": "Washing machine"
+            },
+            {
+                "id": "c",
+                "texto": "Dishwasher"
+            },
+            {
+                "id": "d",
+                "texto": "Toaster"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "El freezer (congelador) mantiene las cosas bajo cero."
+    },
+    {
+        "id": "eng_q19",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Present Simple vs Continuous",
+        "pregunta": "Quiet, please! I ________ (try) to finish my homework.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "try"
+            },
+            {
+                "id": "b",
+                "texto": "am trying"
+            },
+            {
+                "id": "c",
+                "texto": "trying"
+            },
+            {
+                "id": "d",
+                "texto": "is trying"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Acción ocurriendo en el momento de pedir silencio."
+    },
+    {
+        "id": "eng_q20",
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Everyday Vocabulary",
+        "pregunta": "The building where you can see historical objects and art:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Museum"
+            },
+            {
+                "id": "b",
+                "texto": "Theater"
+            },
+            {
+                "id": "c",
+                "texto": "Stadium"
+            },
+            {
+                "id": "d",
+                "texto": "Library"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Museum = Museo."
+    },
+    {
+        "id": "eng_b1_1",
+        "tipo": "opcion_multiple",
+        "materia": "Oxford English",
+        "tema": "Intermediate Grammar",
+        "pregunta": "If I ________ enough money, I would buy a new car.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "have"
+            },
+            {
+                "id": "b",
+                "texto": "had"
+            },
+            {
+                "id": "c",
+                "texto": "will have"
+            },
+            {
+                "id": "d",
+                "texto": "would have"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Usamos el Second Conditional (if + past simple) para situaciones hipotéticas."
+    },
+    {
+        "id": "eng_b2_1",
+        "tipo": "opcion_multiple",
+        "materia": "Oxford English",
+        "tema": "Advanced Vocabulary",
+        "pregunta": "Despite the ________ weather, the match continued as planned.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "adverse"
+            },
+            {
+                "id": "b",
+                "texto": "opposite"
+            },
+            {
+                "id": "c",
+                "texto": "contrary"
+            },
+            {
+                "id": "d",
+                "texto": "reverse"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "'Adverse weather' es un bloque léxico (colocation) común en inglés avanzado."
+    },
+    {
+        "id": "eng_b2_2",
+        "tipo": "opcion_multiple",
+        "materia": "Oxford English",
+        "tema": "Modal Verbs",
+        "pregunta": "You ________ have told me you were coming; I would have prepared something to eat.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "ought"
+            },
+            {
+                "id": "b",
+                "texto": "must"
+            },
+            {
+                "id": "c",
+                "texto": "should"
+            },
+            {
+                "id": "d",
+                "texto": "would"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "'Should have + participio' se usa para expresar lamento o crítica sobre el pasado."
+    },
+    {
+        "id": "eng_v1",
+        "tipo": "opcion_multiple",
+        "materia": "Oxford English",
+        "tema": "Phrasal Verbs",
+        "pregunta": "We had to ________ the meeting because the manager was ill.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "put off"
+            },
+            {
+                "id": "b",
+                "texto": "put on"
+            },
+            {
+                "id": "c",
+                "texto": "take off"
+            },
+            {
+                "id": "d",
+                "texto": "give up"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "'Put off' significa posponer o retrasar un evento."
+    },
+    {
+        "id": "e_p1",
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Fundamentos y Reglas Tácticas",
+        "pregunta": "¿Qué porcentaje de probabilidad de éxito tienes si logras eliminar dos opciones absurdas en un reactivo?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "25%"
+            },
+            {
+                "id": "b",
+                "texto": "50%"
+            },
+            {
+                "id": "c",
+                "texto": "75%"
+            },
+            {
+                "id": "d",
+                "texto": "100%"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Al eliminar 2 de 4 opciones, te quedan 2, lo que estadísticamente eleva tus probabilidades al 50%."
+    },
+    {
+        "id": "e_p2",
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Fundamentos y Reglas Tácticas",
+        "pregunta": "El distractor 'El Extremo' suele identificarse por el uso de palabras como:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Podría, tal vez, usualmente."
+            },
+            {
+                "id": "b",
+                "texto": "Siempre, nunca, todo, nada."
+            },
+            {
+                "id": "c",
+                "texto": "Sin embargo, por lo tanto."
+            },
+            {
+                "id": "d",
+                "texto": "Según el autor, el texto dice."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Las afirmaciones categóricas o extremas suelen ser falsas en contextos académicos matizados."
+    },
+    {
+        "id": "f_p1",
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Fracciones",
+        "pregunta": "¿Qué fracción es equivalente a 2/4?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "1/2"
+            },
+            {
+                "id": "b",
+                "texto": "1/4"
+            },
+            {
+                "id": "c",
+                "texto": "2/2"
+            },
+            {
+                "id": "d",
+                "texto": "4/2"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "2/4 se simplifica dividiendo ambos entre 2, resultando en 1/2."
+    },
+    {
+        "id": "f_p2",
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Fracciones",
+        "pregunta": "Si divides una pizza en 8 partes iguales y te comes 3, ¿qué fracción de la pizza sobra?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "3/8"
+            },
+            {
+                "id": "b",
+                "texto": "5/8"
+            },
+            {
+                "id": "c",
+                "texto": "1/2"
+            },
+            {
+                "id": "d",
+                "texto": "8/3"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "8/8 - 3/8 = 5/8."
+    },
+    {
+        "id": "f_p3",
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Fracciones",
+        "pregunta": "¿Cuál es el resultado de sumar 1/4 + 1/4?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "2/8"
+            },
+            {
+                "id": "b",
+                "texto": "1/2"
+            },
+            {
+                "id": "c",
+                "texto": "1/8"
+            },
+            {
+                "id": "d",
+                "texto": "2/2"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "1/4 + 1/4 = 2/4, que simplificado es 1/2."
+    },
+    {
+        "id": "m_dec1",
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Números naturales, fracciones y decimales",
+        "pregunta": "¿Cómo se lee correctamente el número 0.005?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Cinco décimos"
+            },
+            {
+                "id": "b",
+                "texto": "Cinco centésimos"
+            },
+            {
+                "id": "c",
+                "texto": "Cinco milésimos"
+            },
+            {
+                "id": "d",
+                "texto": "Cinco millonésimos"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El tercer lugar después del punto corresponde a los milésimos (décimos, centésimos, milésimos)."
+    },
+    {
+        "id": "f_p4",
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Fracciones",
+        "pregunta": "¿Qué fracción representa la mitad de 1/4?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "1/2"
+            },
+            {
+                "id": "b",
+                "texto": "1/8"
+            },
+            {
+                "id": "c",
+                "texto": "2/4"
+            },
+            {
+                "id": "d",
+                "texto": "1/16"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "(1/4) / 2 = 1/8."
+    },
+    {
+        "id": "f_p5",
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Fracciones",
+        "pregunta": "¿Cuál es mayor: 3/5 o 2/3?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "3/5"
+            },
+            {
+                "id": "b",
+                "texto": "2/3"
+            },
+            {
+                "id": "c",
+                "texto": "Son iguales"
+            },
+            {
+                "id": "d",
+                "texto": "No se puede determinar"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "3/5 = 0.6, 2/3 ≈ 0.666. Por lo tanto, 2/3 es mayor."
+    },
+    {
+        "id": "f_p6",
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Fracciones",
+        "pregunta": "En una recta numérica, ¿entre qué números enteros se encuentra 7/3?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "0 y 1"
+            },
+            {
+                "id": "b",
+                "texto": "1 y 2"
+            },
+            {
+                "id": "c",
+                "texto": "2 y 3"
+            },
+            {
+                "id": "d",
+                "texto": "3 y 4"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "7/3 es igual a 2 enteros y 1/3, por lo que está entre 2 y 3."
+    },
+    {
+        "id": "f_p7",
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Fracciones",
+        "pregunta": "Si tienes 3/4 de litro de leche y usas 1/2 litro para un pastel, ¿cuánta leche queda?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "1/4 l"
+            },
+            {
+                "id": "b",
+                "texto": "1/2 l"
+            },
+            {
+                "id": "c",
+                "texto": "1/8 l"
+            },
+            {
+                "id": "d",
+                "texto": "2/4 l"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "3/4 - 2/4 (equivalente a 1/2) = 1/4."
+    },
+    {
+        "id": 1,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Acentuación",
+        "pregunta": "Selecciona cuál es el conjunto de tres palabras esdrújulas:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Música-Teléfono-Línea"
+            },
+            {
+                "id": "b",
+                "texto": "Víbora-Canción-Teléfono"
+            },
+            {
+                "id": "c",
+                "texto": "Célula-Cuaderno-Magnífico"
+            },
+            {
+                "id": "d",
+                "texto": "Víbora-Teléfono-Espacio"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Las palabras esdrújulas son aquellas cuya sílaba tónica es la antepenúltima. Todas las palabras esdrújulas se acentúan. En la opción A: Mú-si-ca, Te-lé-fo-no, Lí-ne-a."
+    },
+    {
+        "id": 2,
+        "tipo": "ordenamiento",
+        "materia": "Pensamiento Matemático/Lógica",
+        "tema": "Jerarquización",
+        "pregunta": "Ordena los siguientes materiales del más rígido al más flexible:",
+        "elementos": [
+            {
+                "id": "a",
+                "texto": "Madera"
+            },
+            {
+                "id": "b",
+                "texto": "Popote"
+            },
+            {
+                "id": "c",
+                "texto": "Hoja de papel"
+            },
+            {
+                "id": "d",
+                "texto": "Oro"
+            }
+        ],
+        "respuesta_correcta": [
+            "d",
+            "a",
+            "b",
+            "c"
+        ],
+        "explicacion": "El orden correcto de rigidez es: Oro (metal), Madera (sólido denso), Popote (plástico flexible) y Hoja de papel (muy flexible)."
+    },
+    {
+        "id": 3,
+        "tipo": "informativo",
+        "materia": "Ciudadanía Digital",
+        "tema": "Recursos socioemocionales",
+        "contenido": "Temas a evaluar: Acciones para un trato digno, justo y solidario; Situaciones para tomar decisiones; Acciones para prevenir o erradicar la discriminación; La libertad como derecho humano; Valoración de la diversidad; La migración como derecho humano; Consecuencias a la violación de normas."
+    },
+    {
+        "id": 4,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Unidades de medida",
+        "pregunta": "Determina y selecciona si el siguiente enunciado es falso o verdadero: 'Para medir la capacidad que tiene un cartón de leche se utilizan los kilómetros cuadrados.'",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Falso"
+            },
+            {
+                "id": "b",
+                "texto": "Verdadero"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Los kilómetros cuadrados son una unidad de superficie (área). La capacidad de un recipiente se mide en unidades de volumen como litros o mililitros."
+    },
+    {
+        "id": 5,
+        "tipo": "relacion_columnas",
+        "materia": "Lengua y Comunicación",
+        "tema": "Sujeto y predicado",
+        "pregunta": "Con base en el texto, relaciona cada sujeto con su predicado:",
+        "columnas": {
+            "izquierda": [
+                {
+                    "id": "1",
+                    "texto": "Los mapaches de mi ciudad"
+                },
+                {
+                    "id": "2",
+                    "texto": "Son sombras que habitan solamente por la noche"
+                },
+                {
+                    "id": "3",
+                    "texto": "Su caminar les delata"
+                },
+                {
+                    "id": "4",
+                    "texto": "Merodean hambrientos por los callejones"
+                }
+            ],
+            "derecha": [
+                {
+                    "id": "A",
+                    "texto": "cuando se desplazan corriendo con su manada"
+                },
+                {
+                    "id": "B",
+                    "texto": "en búsqueda de alimento"
+                },
+                {
+                    "id": "C",
+                    "texto": "son mamíferos que rondan por los basureros"
+                },
+                {
+                    "id": "D",
+                    "texto": "pues siempre huyen al amanecer"
+                }
+            ]
+        },
+        "respuesta_correcta": {
+            "1": "C",
+            "2": "D",
+            "3": "A",
+            "4": "B"
+        },
+        "explicacion": "Relación lógica: Mapaches-basureros (habitat/comida), Sombras nocturnas-amanecer (tiempo), Caminar-manada (acción), Merodean-búsqueda de alimento (propósito)."
+    },
+    {
+        "id": 6,
+        "tipo": "informativo",
+        "materia": "Estructura del Examen",
+        "tema": "Generalidades",
+        "contenido": "El examen se compone de 100 reactivos de conocimientos con cuatro posibles opciones de respuesta, de las cuales solamente una es válida."
+    },
+    {
+        "id": 7,
+        "tipo": "informativo",
+        "materia": "Pensamiento Matemático",
+        "tema": "Temario General",
+        "contenido": "Temas a evaluar: Sentido numérico y pensamiento algebraico; Forma, espacio y medida; Manejo de información (Estadística y Probabilidad)."
+    },
+    {
+        "id": 8,
+        "tipo": "informativo",
+        "materia": "Lengua y Comunicación",
+        "tema": "Temario General",
+        "contenido": "Temas a evaluar: Propiedades de los textos; Tipos de textos; Formas de expresión; Conocimiento de la lengua (gramática, semántica, ortografía y puntuación); Uso sintáctico de los elementos de la lengua."
+    },
+    {
+        "id": 9,
+        "tipo": "informativo",
+        "materia": "Comprensión Lectora",
+        "tema": "Temario General",
+        "contenido": "Temas a evaluar: Estrategias de lectura para información implícita y explícita; Tipos de textos (informativo, narrativo, descriptivo, explicativo y argumentativo); Identificación de ideas principales y secundarias."
+    },
+    {
+        "id": 10,
+        "tipo": "informativo",
+        "materia": "Ciencias Naturales y Experimentales",
+        "tema": "Temario General",
+        "contenido": "Temas a evaluar: Origen de la vida; Evolución de las especies; Bioética; El cuerpo humano y salud; Calentamiento global; Leyes de Newton; Transformaciones de la energía; Reacciones químicas."
+    },
+    {
+        "id": 11,
+        "tipo": "informativo",
+        "materia": "Conciencia Histórica",
+        "tema": "Temario General",
+        "contenido": "Temas a evaluar: Legado de los pueblos originarios; Evolución económica y desarrollo desigual; Los medios de transporte; Conservación del patrimonio; Cambios en el paisaje."
+    },
+    {
+        "id": 12,
+        "tipo": "informativo",
+        "materia": "Ciencias Sociales (Geografía)",
+        "tema": "Temario General",
+        "contenido": "Temas a evaluar: El espacio geográfico y fronteras; Componentes naturales del territorio; Población y proceso de migración; Actividades económicas; Globalización y problemas ambientales en el mundo."
+    },
+    {
+        "id": 13,
+        "tipo": "informativo",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Estructura y Áreas",
+        "contenido": "Evalúa el nivel de inglés como segunda lengua (120 reactivos). Áreas: Utilización del inglés (vocabulario, gramática y funciones lingüísticas) y Comprensión oral / Listening (escucha en detalle y esencia). Basado en inglés británico; busca medir el conocimiento real sin temario previo."
+    },
+    {
+        "id": 44,
+        "tipo": "informativo",
+        "materia": "Estrategia Académica",
+        "tema": "Fundamentos y Reglas Tácticas",
+        "contenido": "Regla de los 45 segundos: No estancarse. Detección de Distractores: Verdad Irrelevante, El Extremo (siempre, nunca), La Inversa. Análisis por Eliminación: Tachar imposibles para subir a 50% de probabilidad."
+    },
+    {
+        "id": 14,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Comprensión Lectora y Vocabulario en Contexto",
+        "pregunta": "\"El solsticio de invierno marca el día más corto del año, pero también el inicio de un ciclo de renovación en muchas culturas\". ¿Cuál es la idea principal?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "El invierno es una estación triste."
+            },
+            {
+                "id": "b",
+                "texto": "El solsticio tiene un significado astronómico y cultural."
+            },
+            {
+                "id": "c",
+                "texto": "Todas las culturas celebran el solsticio."
+            },
+            {
+                "id": "d",
+                "texto": "El solsticio es el único evento importante del año."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Evita el extremo de la C \"todas las culturas\" y la opinión de la A"
+    },
+    {
+        "id": 15,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Comprensión Lectora y Vocabulario en Contexto",
+        "pregunta": "En la frase: \"Su discurso fue  ambiguo , dejando a la audiencia con más dudas que certezas\", la palabra ambiguo significa:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Muy largo."
+            },
+            {
+                "id": "b",
+                "texto": "Falto de claridad."
+            },
+            {
+                "id": "c",
+                "texto": "Muy emocionante."
+            },
+            {
+                "id": "d",
+                "texto": "Gracioso."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El contexto \"dudas\" guía a la respuesta"
+    },
+    {
+        "id": 16,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Comprensión Lectora y Vocabulario en Contexto",
+        "pregunta": "Según el texto: \"La ballena azul, a pesar de su tamaño, se alimenta casi exclusivamente de krill\", se puede inferir que:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Las ballenas azules son peligrosas para los humanos."
+            },
+            {
+                "id": "b",
+                "texto": "El krill es una parte esencial de su dieta."
+            },
+            {
+                "id": "c",
+                "texto": "La ballena azul come cualquier tipo de pez pequeño."
+            },
+            {
+                "id": "d",
+                "texto": "La ballena azul es el animal más grande del mundo."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Se basa estrictamente en lo que dice el texto"
+    },
+    {
+        "id": 17,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Comprensión Lectora y Vocabulario en Contexto",
+        "pregunta": "¿Cuál de estos títulos es más adecuado para un texto que habla sobre cómo cuidar el agua en las ciudades?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "El ciclo del agua en la naturaleza."
+            },
+            {
+                "id": "b",
+                "texto": "Mares y océanos del mundo."
+            },
+            {
+                "id": "c",
+                "texto": "Estrategias urbanas para el ahorro hídrico."
+            },
+            {
+                "id": "d",
+                "texto": "La historia del agua en la humanidad."
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Es el título más específico; los otros son muy generales"
+    },
+    {
+        "id": 18,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Comprensión Lectora y Vocabulario en Contexto",
+        "pregunta": "\"No obstante la lluvia, el evento se llevó a cabo\". ¿Qué palabra puede sustituir a \"No obstante\"?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Porque ."
+            },
+            {
+                "id": "b",
+                "texto": "Debido a."
+            },
+            {
+                "id": "c",
+                "texto": "A pesar de."
+            },
+            {
+                "id": "d",
+                "texto": "Por consiguiente."
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Sinónimo directo de concesión"
+    },
+    {
+        "id": 19,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Razonamiento Lógico y Analogías",
+        "pregunta": "Perro es a Jauría como Jugador es a:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Balón."
+            },
+            {
+                "id": "b",
+                "texto": "Cancha."
+            },
+            {
+                "id": "c",
+                "texto": "Equipo."
+            },
+            {
+                "id": "d",
+                "texto": "Deporte."
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Relación elemento - conjunto"
+    },
+    {
+        "id": 20,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Razonamiento Lógico y Analogías",
+        "pregunta": "Si todos los libros de la biblioteca son antiguos, y \"Don Quijote\" es un libro de esa biblioteca, entonces:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Don Quijote es el mejor libro."
+            },
+            {
+                "id": "b",
+                "texto": "Don Quijote es antiguo."
+            },
+            {
+                "id": "c",
+                "texto": "Algunos libros son nuevos."
+            },
+            {
+                "id": "d",
+                "texto": "No hay libros de aventuras."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Deducción lógica simple: si pertenece al grupo, tiene la característica del grupo"
+    },
+    {
+        "id": 21,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Razonamiento Lógico y Analogías",
+        "pregunta": "Árbol es a Bosque como Estrella es a:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Cielo."
+            },
+            {
+                "id": "b",
+                "texto": "Constelación."
+            },
+            {
+                "id": "c",
+                "texto": "Telescopio."
+            },
+            {
+                "id": "d",
+                "texto": "Noche."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Elemento a conjunto organizado"
+    },
+    {
+        "id": 22,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Razonamiento Lógico y Analogías",
+        "pregunta": "Completa la serie: 2, 4, 8, 16, ...",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "20"
+            },
+            {
+                "id": "b",
+                "texto": "24"
+            },
+            {
+                "id": "c",
+                "texto": "32"
+            },
+            {
+                "id": "d",
+                "texto": "64"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La lógica es multiplicar por 2"
+    },
+    {
+        "id": 23,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Razonamiento Lógico y Analogías",
+        "pregunta": "Si A es más alto que B, y B es más alto que C, ¿cuál es correcta?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "C es el más alto."
+            },
+            {
+                "id": "b",
+                "texto": "B es el más bajo."
+            },
+            {
+                "id": "c",
+                "texto": "A es más alto que C."
+            },
+            {
+                "id": "d",
+                "texto": "A y C miden lo mismo."
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Transitividad: A > B > C"
+    },
+    {
+        "id": 24,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Estructura de la Lengua (Concordancia y Trampas Gramaticales)",
+        "pregunta": "\"La mayoría de los estudiantes __________ el examen satisfactoriamente\".",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Aprobó."
+            },
+            {
+                "id": "b",
+                "texto": "Aprobaron."
+            },
+            {
+                "id": "c",
+                "texto": "Aprueban."
+            },
+            {
+                "id": "d",
+                "texto": "Hubieran aprobado."
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Concordancia con el núcleo \"La mayoría\", que es singular"
+    },
+    {
+        "id": 25,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Estructura de la Lengua (Concordancia y Trampas Gramaticales)",
+        "pregunta": "¿Cuál oración está escrita correctamente?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Hubieron  muchos niños en la fiesta."
+            },
+            {
+                "id": "b",
+                "texto": "Había mucha gente en el cine."
+            },
+            {
+                "id": "c",
+                "texto": "Han  habido varios problemas."
+            },
+            {
+                "id": "d",
+                "texto": "Hubieron"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Uso correcto del verbo haber como impersonal"
+    },
+    {
+        "id": 26,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Estructura de la Lengua (Concordancia y Trampas Gramaticales)",
+        "pregunta": "quejas. Selecciona la opción que completa el sentido: \"El científico no pudo _________ su teoría, _________ los datos eran insuficientes\".",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "demostrar / ya que"
+            },
+            {
+                "id": "b",
+                "texto": "inventar / porque"
+            },
+            {
+                "id": "c",
+                "texto": "refutar / pero"
+            },
+            {
+                "id": "d",
+                "texto": "decir / aunque"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Lógica de causa-efecto"
+    },
+    {
+        "id": 27,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Estructura de la Lengua (Concordancia y Trampas Gramaticales)",
+        "pregunta": "Identifica la palabra que no pertenece al grupo:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Cuchillo."
+            },
+            {
+                "id": "b",
+                "texto": "Cuchara."
+            },
+            {
+                "id": "c",
+                "texto": "Tenedor."
+            },
+            {
+                "id": "d",
+                "texto": "Plato."
+            }
+        ],
+        "respuesta_correcta": "d",
+        "explicacion": "A, B y C son cubiertos/utensilios; D es un recipiente"
+    },
+    {
+        "id": 28,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Estructura de la Lengua (Concordancia y Trampas Gramaticales)",
+        "pregunta": "\"El análisis de los resultados __________ que la hipótesis era correcta\".",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Confirmaron."
+            },
+            {
+                "id": "b",
+                "texto": "Confirmó."
+            },
+            {
+                "id": "c",
+                "texto": "Estuvieron confirmando."
+            },
+            {
+                "id": "d",
+                "texto": "Confirmas."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Concordancia con \"El análisis\""
+    },
+    {
+        "id": 29,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Habilidad Matemática (Lógica de planteamiento)",
+        "pregunta": "Si una playera cuesta $200 y tiene un 50% de descuento, pero al pagar te cobran el 10% de impuestos sobre el precio final, ¿cuánto pagas?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "$100"
+            },
+            {
+                "id": "b",
+                "texto": "$110"
+            },
+            {
+                "id": "c",
+                "texto": "$90"
+            },
+            {
+                "id": "d",
+                "texto": "$150"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "$100 + $10 de impuesto"
+    },
+    {
+        "id": 30,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Habilidad Matemática (Lógica de planteamiento)",
+        "pregunta": "Un tren sale a las 3:00 PM y viaja a 60 km/h. ¿A qué hora llegará a una ciudad que está a 120 km de distancia?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "4:00 PM"
+            },
+            {
+                "id": "b",
+                "texto": "5:00 PM"
+            },
+            {
+                "id": "c",
+                "texto": "6:00 PM"
+            },
+            {
+                "id": "d",
+                "texto": "4:30 PM"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "120 km / 60 km/h = 2 horas. 3:00 + 2 = 5:00"
+    },
+    {
+        "id": 31,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Habilidad Matemática (Lógica de planteamiento)",
+        "pregunta": "En una bolsa hay 3 canicas rojas y 2 azules. Si sacas una sin ver, ¿qué es más probable?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Que sea azul."
+            },
+            {
+                "id": "b",
+                "texto": "Que sea roja."
+            },
+            {
+                "id": "c",
+                "texto": "Ambas son igual de probables."
+            },
+            {
+                "id": "d",
+                "texto": "Que sea verde."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Hay más rojas: 3 > 2"
+    },
+    {
+        "id": 32,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Habilidad Matemática (Lógica de planteamiento)",
+        "pregunta": "Si 3 lápices cuestan $15, ¿cuántos lápices puedes comprar con $45?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "6"
+            },
+            {
+                "id": "b",
+                "texto": "9"
+            },
+            {
+                "id": "c",
+                "texto": "12"
+            },
+            {
+                "id": "d",
+                "texto": "10"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Si $15 = 3, cada uno cuesta $5. $45 / 5 = 9"
+    },
+    {
+        "id": 33,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Habilidad Matemática (Lógica de planteamiento)",
+        "pregunta": "¿Qué número sigue en la secuencia? 1, 3, 6, 10, ...",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "12"
+            },
+            {
+                "id": "b",
+                "texto": "14"
+            },
+            {
+                "id": "c",
+                "texto": "15"
+            },
+            {
+                "id": "d",
+                "texto": "20"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Se suma +2, +3, +4... el siguiente es +5"
+    },
+    {
+        "id": 34,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Pensamiento Crítico y Descarte Directo",
+        "pregunta": "Un anuncio dice: \"Nuestros jugos son 100% naturales, sin conservadores y siempre frescos\". ¿Qué opción es una conclusión lógica?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Los jugos son saludables para todos."
+            },
+            {
+                "id": "b",
+                "texto": "Los jugos no contienen químicos para durar más tiempo."
+            },
+            {
+                "id": "c",
+                "texto": "Estos jugos son mejores que los de la competencia."
+            },
+            {
+                "id": "d",
+                "texto": "Si bebes este jugo, nunca te enfermarás."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Paráfrasis de \"sin conservadores\". Evita el extremo \"nunca te enfermarás\""
+    },
+    {
+        "id": 35,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Pensamiento Crítico y Descarte Directo",
+        "pregunta": "\"Todos los mamíferos respiran aire. El delfín es un mamífero\". ¿Qué se concluye?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "El delfín puede vivir fuera del agua."
+            },
+            {
+                "id": "b",
+                "texto": "El delfín respira aire."
+            },
+            {
+                "id": "c",
+                "texto": "Los peces respiran aire."
+            },
+            {
+                "id": "d",
+                "texto": "El delfín es un pez."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Silogismo directo"
+    },
+    {
+        "id": 36,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Pensamiento Crítico y Descarte Directo",
+        "pregunta": "Si un texto científico dice que \"el experimento falló debido a variables externas no controladas\", significa que:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "El científico no sabe hacer su trabajo."
+            },
+            {
+                "id": "b",
+                "texto": "Factores de  afuera afectaron el resultado."
+            },
+            {
+                "id": "c",
+                "texto": "El experimento nunca se hizo."
+            },
+            {
+                "id": "d",
+                "texto": "El resultado fue el esperado."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Traducción de \"variables externas\""
+    },
+    {
+        "id": 37,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Pensamiento Crítico y Descarte Directo",
+        "pregunta": "Elige la palabra que mejor completa: \"A pesar de su __________, siempre ayudaba a los demás\".",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Riqueza."
+            },
+            {
+                "id": "b",
+                "texto": "Pobreza."
+            },
+            {
+                "id": "c",
+                "texto": "Amistad."
+            },
+            {
+                "id": "d",
+                "texto": "Inteligencia."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La frase \"A pesar de\" indica contraste; la pobreza contrasta con ayudar"
+    },
+    {
+        "id": 38,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Pensamiento Crítico y Descarte Directo",
+        "pregunta": "Identifica la opción que presenta una contradicción:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Un silencio ruidoso."
+            },
+            {
+                "id": "b",
+                "texto": "Una luz brillante."
+            },
+            {
+                "id": "c",
+                "texto": "Un camino largo."
+            },
+            {
+                "id": "d",
+                "texto": "Un agua fría."
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Oxímoron/contradicción lógica"
+    },
+    {
+        "id": 39,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Pensamiento Crítico y Descarte Directo",
+        "pregunta": "Si para hacer un pastel se necesitan 2 huevos, ¿cuántos huevos se necesitan para hacer 5 pasteles?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "7"
+            },
+            {
+                "id": "b",
+                "texto": "10"
+            },
+            {
+                "id": "c",
+                "texto": "8"
+            },
+            {
+                "id": "d",
+                "texto": "12"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Multiplicación directa"
+    },
+    {
+        "id": 40,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Pensamiento Crítico y Descarte Directo",
+        "pregunta": "¿Cuál de estas palabras es el antónimo (opuesto) de \"Efímero\"?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Corto."
+            },
+            {
+                "id": "b",
+                "texto": "Pasajero."
+            },
+            {
+                "id": "c",
+                "texto": "Duradero."
+            },
+            {
+                "id": "d",
+                "texto": "Rápido."
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Efímero es algo que dura poco; lo opuesto dura mucho"
+    },
+    {
+        "id": 41,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Pensamiento Crítico y Descarte Directo",
+        "pregunta": "Si hoy es martes, ¿qué día será dentro de 8 días?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Martes ."
+            },
+            {
+                "id": "b",
+                "texto": "Miércoles ."
+            },
+            {
+                "id": "c",
+                "texto": "Lunes ."
+            },
+            {
+                "id": "d",
+                "texto": "Jueves"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "7 días después es martes, 8 días es miércoles"
+    },
+    {
+        "id": 42,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Pensamiento Crítico y Descarte Directo",
+        "pregunta": ". ¿Cuál es el sinónimo de \"Prudente\"?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Arriesgado."
+            },
+            {
+                "id": "b",
+                "texto": "Cuidadoso."
+            },
+            {
+                "id": "c",
+                "texto": "Rápido."
+            },
+            {
+                "id": "d",
+                "texto": "Fuerte."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Sinónimo por definición"
+    },
+    {
+        "id": 43,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategia Académica",
+        "tema": "Pensamiento Crítico y Descarte Directo",
+        "pregunta": "En la serie de palabras: \"Manzana, Pera, Plátano, ________\", ¿cuál sigue la lógica?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Lechuga."
+            },
+            {
+                "id": "b",
+                "texto": "Uva."
+            },
+            {
+                "id": "c",
+                "texto": "Pollo."
+            },
+            {
+                "id": "d",
+                "texto": "Pan."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Misma categoría semántica: Frutas"
+    },
+    {
+        "id": 101,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Jerarquía de operaciones",
+        "pregunta": "¿Cuál es el resultado de la siguiente expresión matemática: 15 + 3 × 4 - 8 ÷ 2?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "31"
+            },
+            {
+                "id": "b",
+                "texto": "23"
+            },
+            {
+                "id": "c",
+                "texto": "68"
+            },
+            {
+                "id": "d",
+                "texto": "36"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Por jerarquía, primero multiplicaciones y divisiones (3×4=12 y 8÷2=4). Luego sumas y restas: 15 + 12 - 4 = 23."
+    },
+    {
+        "id": 102,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Fracciones",
+        "pregunta": "En una receta se requieren 3/4 de taza de harina para hacer un pastel. Si se quieren hacer 2 pasteles, ¿cuánta harina se utilizará?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "1 taza y media (1 1/2)"
+            },
+            {
+                "id": "b",
+                "texto": "2 tazas"
+            },
+            {
+                "id": "c",
+                "texto": "6/8 de taza"
+            },
+            {
+                "id": "d",
+                "texto": "1 taza y 1/4"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "3/4 + 3/4 = 6/4 de taza. Simplificando es 3/2, lo que equivale a 1 entero y 1/2."
+    },
+    {
+        "id": 103,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Tipos de textos",
+        "pregunta": "Lee el siguiente fragmento: 'El león (Panthera leo) es un mamífero carnívoro de la familia de los félidos y una de las cinco especies del género Panthera.' ¿Qué tipo de texto es?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Narrativo"
+            },
+            {
+                "id": "b",
+                "texto": "Argumentativo"
+            },
+            {
+                "id": "c",
+                "texto": "Expositivo / Informativo"
+            },
+            {
+                "id": "d",
+                "texto": "Literario"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Es un texto expositivo porque presenta información y datos objetivos sobre un tema."
+    },
+    {
+        "id": 104,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Ortografía",
+        "pregunta": "Selecciona la palabra que está escrita correctamente:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Subvención"
+            },
+            {
+                "id": "b",
+                "texto": "Exepción"
+            },
+            {
+                "id": "c",
+                "texto": "Desisión"
+            },
+            {
+                "id": "d",
+                "texto": "Convección"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Subvención es correcta. 'Excepción' lleva 'c'. 'Decisión' lleva 'c' y 's'. (Convección también es correcta en ciencia, pero subvención es uso clásico de b/v)."
+    },
+    {
+        "id": 105,
+        "tipo": "opcion_multiple",
+        "materia": "Ciencias Naturales y Experimentales",
+        "tema": "El cuerpo humano",
+        "pregunta": "¿Cuál es la función principal del sistema respiratorio?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Transportar nutrientes a través de la sangre."
+            },
+            {
+                "id": "b",
+                "texto": "El intercambio de gases, oxigenar la sangre y liberar dióxido de carbono."
+            },
+            {
+                "id": "c",
+                "texto": "Procesar y digerir los alimentos para obtener energía."
+            },
+            {
+                "id": "d",
+                "texto": "Producir hormonas para regular el metabolismo."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El sistema respiratorio se encarga de que ocurra el intercambio de oxígeno y dióxido de carbono en los pulmones."
+    },
+    {
+        "id": 106,
+        "tipo": "opcion_multiple",
+        "materia": "Ciencias Naturales y Experimentales",
+        "tema": "Origen de la vida y Evolución",
+        "pregunta": "¿Qué científico propuso la teoría de la evolución por selección natural?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Isaac Newton"
+            },
+            {
+                "id": "b",
+                "texto": "Albert Einstein"
+            },
+            {
+                "id": "c",
+                "texto": "Charles Darwin"
+            },
+            {
+                "id": "d",
+                "texto": "Gregor Mendel"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Charles Darwin, en conjunto con Alfred Russel Wallace, propuso la teoría de la evolución mediante la selección natural."
+    },
+    {
+        "id": 107,
+        "tipo": "opcion_multiple",
+        "materia": "Conciencia Histórica",
+        "tema": "Legado de los pueblos originarios",
+        "pregunta": "¿Cuál de las siguientes civilizaciones mesoamericanas se desarrolló principalmente en la península de Yucatán y desarrolló un sistema matemático que incluía el cero?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Olmecas"
+            },
+            {
+                "id": "b",
+                "texto": "Mayas"
+            },
+            {
+                "id": "c",
+                "texto": "Aztecas"
+            },
+            {
+                "id": "d",
+                "texto": "Zapotecas"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Los Mayas se asentaron en lo que hoy es el sureste de México (Yucatán) y crearon el sistema vigesimal con uso del cero."
+    },
+    {
+        "id": 108,
+        "tipo": "opcion_multiple",
+        "materia": "Ciencias Sociales (Geografía)",
+        "tema": "El espacio geográfico",
+        "pregunta": "¿Cómo se le llama a la representación esférica más exacta de la Tierra que respeta la proporción de continentes y océanos?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Mapa mundi"
+            },
+            {
+                "id": "b",
+                "texto": "Globo terráqueo"
+            },
+            {
+                "id": "c",
+                "texto": "Hemeroteca"
+            },
+            {
+                "id": "d",
+                "texto": "Planisferio"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El globo terráqueo es la única representación que conserva las distancias, formas y proporciones de manera fidedigna al no tener distorsión plana."
+    },
+    {
+        "id": 109,
+        "tipo": "opcion_multiple",
+        "materia": "Comprensión Lectora",
+        "tema": "Ideas principales",
+        "pregunta": "Lee lo siguiente: 'La fotosíntesis es el proceso metabólico por el cual las plantas verdes, algas y algunas bacterias convierten la luz solar en energía química'. ¿Cuál es el tema principal?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "El uso de la luz por las bacterias."
+            },
+            {
+                "id": "b",
+                "texto": "La síntesis de clorofila."
+            },
+            {
+                "id": "c",
+                "texto": "El ciclo del agua en las plantas."
+            },
+            {
+                "id": "d",
+                "texto": "El proceso general de la fotosíntesis."
+            }
+        ],
+        "respuesta_correcta": "d",
+        "explicacion": "El enunciado define e introduce el concepto general de la fotosíntesis como tema central."
+    },
+    {
+        "id": 110,
+        "tipo": "opcion_multiple",
+        "materia": "Inglés (Oxford Placement Test)",
+        "tema": "Utilización del inglés",
+        "pregunta": "Choose the correct answer to complete the sentence: 'I _____ to the cinema every weekend.'",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "goes"
+            },
+            {
+                "id": "b",
+                "texto": "go"
+            },
+            {
+                "id": "c",
+                "texto": "going"
+            },
+            {
+                "id": "d",
+                "texto": "am go"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Para el pronombre 'I' en tiempo presente simple (rutinas como 'every weekend'), el verbo se conjuga sin la 's' final, por lo tanto es 'go'."
+    },
+    {
+        "id": 111,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Números decimales y operaciones",
+        "pregunta": "En una carrera de relevos, el primer corredor tardó 12.35 segundos, el segundo 11.8 segundos y el tercero 12.04 segundos. ¿Cuál fue el tiempo total del equipo?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "36.19 segundos"
+            },
+            {
+                "id": "b",
+                "texto": "35.19 segundos"
+            },
+            {
+                "id": "c",
+                "texto": "36.09 segundos"
+            },
+            {
+                "id": "d",
+                "texto": "35.39 segundos"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Se suman alineando el punto decimal: 12.35 + 11.80 + 12.04 = 36.19."
+    },
+    {
+        "id": 112,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Ubicación espacial (Plano cartesiano)",
+        "pregunta": "¿Qué par ordenado representa el origen en un plano cartesiano?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "(1, 1)"
+            },
+            {
+                "id": "b",
+                "texto": "(0, 1)"
+            },
+            {
+                "id": "c",
+                "texto": "(0, 0)"
+            },
+            {
+                "id": "d",
+                "texto": "(1, 0)"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El origen es el punto donde se cruzan el eje X y el eje Y, representado matemáticamente como (0,0)."
+    },
+    {
+        "id": 113,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Proporcionalidad y porcentajes",
+        "pregunta": "Si un salón tiene 40 alumnos y el 25% lleva lentes, ¿cuántos alumnos llevan lentes?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "15"
+            },
+            {
+                "id": "b",
+                "texto": "12"
+            },
+            {
+                "id": "c",
+                "texto": "8"
+            },
+            {
+                "id": "d",
+                "texto": "10"
+            }
+        ],
+        "respuesta_correcta": "d",
+        "explicacion": "El 25% representa una cuarta parte (1/4). Dividiendo 40 entre 4, el resultado es 10."
+    },
+    {
+        "id": 114,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Comprensión - Desarrollo de interpretación",
+        "pregunta": "En la frase 'El viento susurraba secretos a través de las ramas', ¿qué figura retórica se está utilizando al atribuir acciones humanas al viento?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Símil o comparación"
+            },
+            {
+                "id": "b",
+                "texto": "Hipérbole"
+            },
+            {
+                "id": "c",
+                "texto": "Personificación o prosopopeya"
+            },
+            {
+                "id": "d",
+                "texto": "Metáfora"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Dar cualidades o acciones humanas a objetos inanimados o elementos de la naturaleza se llama personificación."
+    },
+    {
+        "id": 115,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Reflexión sobre el sistema de la lengua",
+        "pregunta": "¿Cuál de las siguientes palabras es un adverbio de tiempo?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Rápido"
+            },
+            {
+                "id": "b",
+                "texto": "Ayer"
+            },
+            {
+                "id": "c",
+                "texto": "Mucho"
+            },
+            {
+                "id": "d",
+                "texto": "Lejos"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "'Ayer' responde a la pregunta ¿cuándo?, indicando un momento temporal. 'Rápido' es modo, 'Mucho' es cantidad y 'Lejos' es lugar."
+    },
+    {
+        "id": 116,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Convencionalidades lingüísticas (Acentuación)",
+        "pregunta": "Identifica la opción donde la palabra destacada requiere acento diacrítico para indicar que es un pronombre personal y no un artículo:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Préstame **el** lápiz rojo."
+            },
+            {
+                "id": "b",
+                "texto": "Iré contigo, **el** no quiso venir."
+            },
+            {
+                "id": "c",
+                "texto": "**El** árbol perdió sus hojas."
+            },
+            {
+                "id": "d",
+                "texto": "Me gusta **el** pastel de chocolate."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "En la opción B, 'el' se refiere a una persona, por lo que debe llevar tilde (él). En las demás opciones, 'el' funciona como artículo definido."
+    },
+    {
+        "id": 117,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Análisis de estructura textual",
+        "pregunta": "¿Qué tipo de texto tiene como propósito convencer al lector de una idea mediante el uso de argumentos lógicos y opiniones fundamentadas?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Texto literario"
+            },
+            {
+                "id": "b",
+                "texto": "Texto expositivo"
+            },
+            {
+                "id": "c",
+                "texto": "Texto normativo"
+            },
+            {
+                "id": "d",
+                "texto": "Texto argumentativo"
+            }
+        ],
+        "respuesta_correcta": "d",
+        "explicacion": "El texto argumentativo defiende una postura explícita e intenta persuadir al receptor mediante argumentos."
+    },
+    {
+        "id": 118,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Organización e interpretación de datos",
+        "pregunta": "Las calificaciones de Ana fueron: 8, 9, 8, 10, y 7. ¿Cuál es su promedio (media aritmética)?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "8.0"
+            },
+            {
+                "id": "b",
+                "texto": "8.4"
+            },
+            {
+                "id": "c",
+                "texto": "8.2"
+            },
+            {
+                "id": "d",
+                "texto": "8.5"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Se suman todas (8+9+8+10+7 = 42). Al dividir el total (42) entre las 5 materias, el resultado es 8.4."
+    },
+    {
+        "id": 1001,
+        "tipo": "opcion_multiple",
+        "materia": "Ciencias Naturales",
+        "tema": "El cuerpo humano y la salud",
+        "pregunta": "¿Qué órgano se encarga de la memoria y la coordinación del lenguaje?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Corazón"
+            },
+            {
+                "id": "b",
+                "texto": "Hígado"
+            },
+            {
+                "id": "c",
+                "texto": "Cerebro"
+            },
+            {
+                "id": "d",
+                "texto": "Esófago"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El cerebro es el órgano del sistema nervioso central que controla las funciones cognitivas, incluida la memoria y el lenguaje."
+    },
+    {
+        "id": 1002,
+        "tipo": "opcion_multiple",
+        "materia": "Ciencias Naturales",
+        "tema": "El cuerpo humano y la salud",
+        "pregunta": "¿Cuál de las opciones es parte del sistema locomotor?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Huesos"
+            },
+            {
+                "id": "b",
+                "texto": "Arterias"
+            },
+            {
+                "id": "c",
+                "texto": "Cerebro"
+            },
+            {
+                "id": "d",
+                "texto": "Corazón"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "El sistema locomotor está formado por el sistema óseo (huesos) y el sistema muscular, permitiendo el movimiento del cuerpo."
+    },
+    {
+        "id": 1003,
+        "tipo": "opcion_multiple",
+        "materia": "Ciencias Naturales",
+        "tema": "El cuerpo humano y la salud",
+        "pregunta": "¿Cuál es la principal función del sistema circulatorio?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Sostener y mover el cuerpo"
+            },
+            {
+                "id": "b",
+                "texto": "Regular el funcionamiento de los órganos"
+            },
+            {
+                "id": "c",
+                "texto": "Transformar los alimentos y nutrimentos"
+            },
+            {
+                "id": "d",
+                "texto": "Llevar la sangre a todo el cuerpo"
+            }
+        ],
+        "respuesta_correcta": "d",
+        "explicacion": "El sistema circulatorio se encarga de transportar la sangre, nutrientes, oxígeno y otras sustancias por todo el cuerpo."
+    },
+    {
+        "id": 1004,
+        "tipo": "opcion_multiple",
+        "materia": "Ciencias Naturales",
+        "tema": "El cuerpo humano y la salud",
+        "pregunta": "La eliminación del dióxido de carbono se realiza mediante el sistema...",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "circulatorio."
+            },
+            {
+                "id": "b",
+                "texto": "respiratorio."
+            },
+            {
+                "id": "c",
+                "texto": "muscular."
+            },
+            {
+                "id": "d",
+                "texto": "óseo."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El sistema respiratorio expulsa el dióxido de carbono que las células producen, al exhalar el aire de los pulmones."
+    },
+    {
+        "id": 1005,
+        "tipo": "opcion_multiple",
+        "materia": "Ciencias Naturales",
+        "tema": "El cuerpo humano y la salud",
+        "pregunta": "¿Cuál es uno de los órganos del sistema digestivo?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Faringe"
+            },
+            {
+                "id": "b",
+                "texto": "Arteria"
+            },
+            {
+                "id": "c",
+                "texto": "Cartílago"
+            },
+            {
+                "id": "d",
+                "texto": "Ligamento"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La faringe es un conducto que conecta la boca con el esófago, formando parte del sistema digestivo (y también respiratorio)."
+    },
+    {
+        "id": 1006,
+        "tipo": "opcion_multiple",
+        "materia": "Ciencias Naturales",
+        "tema": "El cuerpo humano y la salud",
+        "pregunta": "¿Qué órganos secretan y ayudan a la digestión?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Estómago y vejiga"
+            },
+            {
+                "id": "b",
+                "texto": "Hígado y páncreas"
+            },
+            {
+                "id": "c",
+                "texto": "Cerebro y laringe"
+            },
+            {
+                "id": "d",
+                "texto": "Pulmones y riñones"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El hígado y el páncreas son glándulas anexas que secretan bilis y jugo pancreático, fundamentales para descomponer los alimentos."
+    },
+    {
+        "id": 1007,
+        "tipo": "opcion_multiple",
+        "materia": "Ciencias Naturales",
+        "tema": "El cuerpo humano y la salud",
+        "pregunta": "Los glóbulos blancos que atacan las infecciones son los...",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "glóbulos rojos."
+            },
+            {
+                "id": "b",
+                "texto": "leucocitos."
+            },
+            {
+                "id": "c",
+                "texto": "linfocitos."
+            },
+            {
+                "id": "d",
+                "texto": "virus."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Los leucocitos son células del sistema inmunológico, también conocidos como glóbulos blancos, encargados de combatir infecciones."
+    },
+    {
+        "id": 1008,
+        "tipo": "opcion_multiple",
+        "materia": "Ciencias Naturales",
+        "tema": "El cuerpo humano y la salud",
+        "pregunta": "¿Qué sistema transporta los desechos mediante orina, heces y sudor?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "inmunológico"
+            },
+            {
+                "id": "b",
+                "texto": "Respiratorio"
+            },
+            {
+                "id": "c",
+                "texto": "Expulsor"
+            },
+            {
+                "id": "d",
+                "texto": "Excretor"
+            }
+        ],
+        "respuesta_correcta": "d",
+        "explicacion": "El sistema excretor elimina las sustancias de desecho de la sangre y el cuerpo a través de la orina y el sudor."
+    },
+    {
+        "id": 1009,
+        "tipo": "opcion_multiple",
+        "materia": "Formación Cívica y Ética",
+        "tema": "Inclusión y Equidad",
+        "pregunta": "¿Qué opción señala el respeto a las diferencias físicas?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Dirigirse a los compañeros como 'cuatro ojos', 'el gordo', 'jirafa', 'ñoño'."
+            },
+            {
+                "id": "b",
+                "texto": "Excluir de los juegos a compañeros que tienen alguna discapacidad."
+            },
+            {
+                "id": "c",
+                "texto": "Prohibir que las niñas jueguen en el equipo de futbol de la escuela."
+            },
+            {
+                "id": "d",
+                "texto": "Dirigirse a los compañeros por su nombre y convivir con todos."
+            }
+        ],
+        "respuesta_correcta": "d",
+        "explicacion": "El respeto implica llamar a cada persona por su nombre, evitando apodos o discriminación, y fomentando la convivencia armónica."
+    },
+    {
+        "id": 1010,
+        "tipo": "opcion_multiple",
+        "materia": "Formación Cívica y Ética",
+        "tema": "Empatía y Respeto",
+        "pregunta": "Se habla de respeto a las diferencias emocionales cuando un compañero llora y los demás le dicen...",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "'los hombres no lloran'."
+            },
+            {
+                "id": "b",
+                "texto": "'entendemos cómo te sientes'."
+            },
+            {
+                "id": "c",
+                "texto": "'aguántate como los machos'."
+            },
+            {
+                "id": "d",
+                "texto": "'no llores, no es para tanto'."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Validar y comprender las emociones ajenas es la base de la empatía y el respeto a la sensibilidad de cada individuo."
+    },
+    {
+        "id": 1011,
+        "tipo": "opcion_multiple",
+        "materia": "Formación Cívica y Ética",
+        "tema": "Estereotipos de género",
+        "pregunta": "¿Cuál opción es un ejemplo de estereotipo?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Angélica no compra en la panadería porque vio un insecto."
+            },
+            {
+                "id": "b",
+                "texto": "Pedro fue expulsado del equipo por pelear."
+            },
+            {
+                "id": "c",
+                "texto": "Javier le rompió a Mario su lapicera rosa porque ese color es de niñas."
+            },
+            {
+                "id": "d",
+                "texto": "Mariana obtuvo un reconocimiento por su alta calificación."
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Asignar un color exclusivamente a un género biológico (rosa = niñas) es un estereotipo social que limita la libertad de elección."
+    },
+    {
+        "id": 1012,
+        "tipo": "opcion_multiple",
+        "materia": "Formación Cívica y Ética",
+        "tema": "Cambios durante la adolescencia",
+        "pregunta": "Es una característica física que marca el inicio de la adolescencia.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Aparición de vello en las axilas y crecimiento de bigote en hombres y mujeres."
+            },
+            {
+                "id": "b",
+                "texto": "Consolidación de la personalidad del hombre y la mujer."
+            },
+            {
+                "id": "c",
+                "texto": "Crecimiento de senos en las mujeres; aparición de barba en los hombres."
+            },
+            {
+                "id": "d",
+                "texto": "Falta de comunicación con los adultos o familiares cercanos."
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Son caracteres sexuales secundarios que surgen durante la pubertad y marcan físicamente el desarrollo hacia la madurez."
+    },
+    {
+        "id": 1013,
+        "tipo": "opcion_multiple",
+        "materia": "Formación Cívica y Ética",
+        "tema": "Cambios durante la adolescencia",
+        "pregunta": "Una característica psicológica durante la adolescencia es...",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "una mejor relación con los padres."
+            },
+            {
+                "id": "b",
+                "texto": "la búsqueda de identidad."
+            },
+            {
+                "id": "c",
+                "texto": "una mayor seguridad en sí mismo."
+            },
+            {
+                "id": "d",
+                "texto": "la búsqueda de amigos del sexo opuesto."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Una de las etapas psicológicas más importantes en la adolescencia es la conformación de la propia identidad, cuestionando y descubriendo quiénes son."
+    },
+    {
+        "id": 119,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Números naturales y lectura",
+        "pregunta": "¿Cómo se lee correctamente el número 2,000,005,000,000?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Dos mil millones cinco mil."
+            },
+            {
+                "id": "b",
+                "texto": "Dos billones cinco mil millones."
+            },
+            {
+                "id": "c",
+                "texto": "Dos trillones cinco mil."
+            },
+            {
+                "id": "d",
+                "texto": "Dos mil billones cinco mil millones."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El número tiene 12 ceros (o cifras) a la derecha del 2. Un billón es un millón de millones (12 ceros). Por lo tanto, es 'Dos billones', seguido de 'cinco mil millones'."
+    },
+    {
+        "id": 120,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Fracciones y operaciones",
+        "pregunta": "¿Cuál es el resultado de sumar 1/4 + 1/2?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "2/6"
+            },
+            {
+                "id": "b",
+                "texto": "3/4"
+            },
+            {
+                "id": "c",
+                "texto": "1/3"
+            },
+            {
+                "id": "d",
+                "texto": "2/4"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Para sumar, se requiere un denominador común. 1/2 es equivalente a 2/4. Sumando: 1/4 + 2/4 = 3/4."
+    },
+    {
+        "id": 121,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Fracciones",
+        "pregunta": "Si divides 3/5 entre 2 (un número natural), ¿cuál es el resultado correcto?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "3/10"
+            },
+            {
+                "id": "b",
+                "texto": "6/5"
+            },
+            {
+                "id": "c",
+                "texto": "1.5/5"
+            },
+            {
+                "id": "d",
+                "texto": "3/2.5"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Para dividir una fracción entre un entero, se multiplica el denominador de la fracción por el entero: 3 / (5 * 2) = 3/10."
+    },
+    {
+        "id": 122,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Sucesiones numéricas",
+        "pregunta": "¿Cuál es el siguiente número en la sucesión aritmética: 7, 13, 19, 25...?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "30"
+            },
+            {
+                "id": "b",
+                "texto": "31"
+            },
+            {
+                "id": "c",
+                "texto": "33"
+            },
+            {
+                "id": "d",
+                "texto": "29"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "En esta sucesión aritmética, la diferencia constante entre cada número es +6. Por lo tanto, 25 + 6 = 31."
+    },
+    {
+        "id": 123,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Figuras y cuerpos geométricos",
+        "pregunta": "¿Cuántas caras, aristas y vértices tiene un prisma rectangular (como una caja de zapatos)?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "6 caras, 12 aristas y 8 vértices."
+            },
+            {
+                "id": "b",
+                "texto": "4 caras, 8 aristas y 4 vértices."
+            },
+            {
+                "id": "c",
+                "texto": "6 caras, 8 aristas y 12 vértices."
+            },
+            {
+                "id": "d",
+                "texto": "8 caras, 12 aristas y 6 vértices."
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Un prisma rectangular tiene 6 caras (lados planos), 12 aristas (líneas donde se unen las caras) y 8 vértices (esquinas)."
+    },
+    {
+        "id": 124,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Magnitudes y medidas",
+        "pregunta": "Si un recipiente tiene una capacidad de 2.5 litros, ¿cuántos mililitros de agua puede contener?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "250 ml"
+            },
+            {
+                "id": "b",
+                "texto": "25 ml"
+            },
+            {
+                "id": "c",
+                "texto": "2500 ml"
+            },
+            {
+                "id": "d",
+                "texto": "25000 ml"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Un litro equivale a 1000 mililitros (ml). Por lo tanto, 2.5 litros se multiplica por 1000, lo que da 2500 ml."
+    },
+    {
+        "id": 125,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Organización e interpretación de datos",
+        "pregunta": "¿Cuál es la 'moda' en el siguiente conjunto de edades: 11, 12, 11, 13, 11, 12, 14?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "11"
+            },
+            {
+                "id": "b",
+                "texto": "12"
+            },
+            {
+                "id": "c",
+                "texto": "13"
+            },
+            {
+                "id": "d",
+                "texto": "12.5"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "La moda en estadística es el valor que se repite con mayor frecuencia. En este caso, el número 11 aparece tres veces, más que cualquier otro."
+    },
+    {
+        "id": 126,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Reflexión sobre el sistema de la lengua",
+        "pregunta": "¿Qué tipo de nexo se está utilizando en la oración: 'Estudió mucho para el examen, **por consiguiente**, obtuvo una buena calificación'?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Nexo de tiempo"
+            },
+            {
+                "id": "b",
+                "texto": "Nexo de causa-efecto"
+            },
+            {
+                "id": "c",
+                "texto": "Nexo de comparación"
+            },
+            {
+                "id": "d",
+                "texto": "Nexo de suma o adición"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La frase 'por consiguiente' introduce la consecuencia o el efecto de la acción previa (estudiar mucho)."
+    },
+    {
+        "id": 127,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Convencionalidades lingüísticas (Puntuación)",
+        "pregunta": "¿Para qué se utiliza el guion largo (—) en los textos narrativos?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Para separar las sílabas de una palabra muy larga."
+            },
+            {
+                "id": "b",
+                "texto": "Para indicar el final de un párrafo."
+            },
+            {
+                "id": "c",
+                "texto": "Para introducir los diálogos de los personajes y separarlos de la narración."
+            },
+            {
+                "id": "d",
+                "texto": "Para hacer una pausa breve en la lectura."
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El guion largo, también llamado raya, es el signo de puntuación convencional en español para marcar la intervención de cada personaje en un diálogo."
+    },
+    {
+        "id": 128,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Convencionalidades lingüísticas (Siglas)",
+        "pregunta": "¿Qué significan estructuralmente instituciones o documentos escritos en mayúsculas sostenidas, como CURP o SEP?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Son Abreviaturas comunes."
+            },
+            {
+                "id": "b",
+                "texto": "Son Siglas o Acrónimos oficiales."
+            },
+            {
+                "id": "c",
+                "texto": "Son errores de formato de texto."
+            },
+            {
+                "id": "d",
+                "texto": "Son nombres propios de personas."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Las siglas (como CURP) se forman con las letras iniciales de los términos que componen una frase o el nombre de una institución."
+    },
+    {
+        "id": 129,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Tipos de texto",
+        "pregunta": "¿Cómo se distingue principalmente un texto formal de uno informal?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Por su longitud, el formal siempre es más largo."
+            },
+            {
+                "id": "b",
+                "texto": "Por el tipo de registro, vocabulario especializado y estructura gramatical frente al lenguaje coloquial y cercano."
+            },
+            {
+                "id": "c",
+                "texto": "El texto formal sólo se escribe en computadora y el informal a mano."
+            },
+            {
+                "id": "d",
+                "texto": "Por el color de la tinta que se utiliza."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El registro lingüístico varía: el formal emplea un vocabulario preciso, respeta normas estrictas y es cortes, mientras que el informal usa modismos, muletillas y tuteo."
+    },
+    {
+        "id": 130,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Reflexión sobre la lengua (Verbos)",
+        "pregunta": "Identifica la opción en donde el verbo está conjugado en *copretérito* (pasado imperfecto):",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Yo comeré una manzana."
+            },
+            {
+                "id": "b",
+                "texto": "Nosotros cantamos en el coro."
+            },
+            {
+                "id": "c",
+                "texto": "Ellos corrían en el parque todos los días."
+            },
+            {
+                "id": "d",
+                "texto": "Tú saltaste la cuerda."
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El copretérito señala una acción pasada que no está terminada de manera precisa o que era habitual. Además, sus terminaciones características son -aba, -ía (como corr-ía-n)."
+    },
+    {
+        "id": 131,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Comprensión lectora",
+        "pregunta": "Lee el siguiente fragmento y responde: 'Intenta lograr tus metas. Para ello, aliméntate con el delicioso sabor de CEREAPLUS, adicionado con vitaminas, minerales y hierro... Prueba sus deliciosos sabores: fresas con crema, vainilla y chocolate con nuez.'\n\nEl texto anterior es...",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "un anuncio."
+            },
+            {
+                "id": "b",
+                "texto": "una descripción."
+            },
+            {
+                "id": "c",
+                "texto": "una invitación."
+            },
+            {
+                "id": "d",
+                "texto": "un refrán."
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "El texto tiene como propósito persuadir al lector para que consuma un producto determinado (CEREAPLUS), lo cual es la función principal de un anuncio publicitario."
+    },
+    {
+        "id": 132,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Análisis de textos publicitarios",
+        "pregunta": "Según el texto anterior del cereal CEREAPLUS, ¿cuál es la intención del texto?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Convencer al lector de alimentarse bien."
+            },
+            {
+                "id": "b",
+                "texto": "Presentar al lector ingredientes sanos."
+            },
+            {
+                "id": "c",
+                "texto": "Exponer al lector cómo practicar un pasatiempo."
+            },
+            {
+                "id": "d",
+                "texto": "Convencer al lector de consumir un cereal."
+            }
+        ],
+        "respuesta_correcta": "d",
+        "explicacion": "Aunque menciona ingredientes y metas, el propósito comercial real de cualquier anuncio de este tipo es lograr que la gente compre y consuma su producto."
+    },
+    {
+        "id": 133,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Análisis de textos publicitarios",
+        "pregunta": "¿Cuál de los siguientes enunciados cuestiona al lector del anuncio de CEREAPLUS?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "¡Tú eres lo que comes!"
+            },
+            {
+                "id": "b",
+                "texto": "Prueba sus deliciosos sabores."
+            },
+            {
+                "id": "c",
+                "texto": "Andar en patineta."
+            },
+            {
+                "id": "d",
+                "texto": "¿Te parece poco?"
+            }
+        ],
+        "respuesta_correcta": "d",
+        "explicacion": "Cuestionar significa hacer una pregunta directa e interpelar al lector, y '¿Te parece poco?' utiliza signos de interrogación para lograr este efecto."
+    },
+    {
+        "id": 134,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Comprensión lectora",
+        "pregunta": "Según el anuncio de CEREAPLUS, su nuevo ingrediente único que fortalece los huesos es...",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "extracalcio."
+            },
+            {
+                "id": "b",
+                "texto": "minerales."
+            },
+            {
+                "id": "c",
+                "texto": "hierro."
+            },
+            {
+                "id": "d",
+                "texto": "vitaminas."
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "El texto menciona explícitamente: 'su nuevo Extracalcio, un ingrediente único de CEREAPLUS que fortalece tus huesos'."
+    },
+    {
+        "id": 135,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Comprensión lectora",
+        "pregunta": "Según el anuncio, ¿cuántos sabores ofrece CEREAPLUS?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Dos"
+            },
+            {
+                "id": "b",
+                "texto": "Tres"
+            },
+            {
+                "id": "c",
+                "texto": "Cuatro"
+            },
+            {
+                "id": "d",
+                "texto": "Cinco"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El texto enlista los siguientes sabores: 1) fresas con crema, 2) vainilla y 3) chocolate con nuez. Por lo tanto, ofrece tres sabores."
+    },
+    {
+        "id": 136,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Recursos literarios",
+        "pregunta": "¿Cuál es el recurso que se utiliza en la frase publicitaria '¡tú eres lo que comes!'?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Metáfora"
+            },
+            {
+                "id": "b",
+                "texto": "Comparación"
+            },
+            {
+                "id": "c",
+                "texto": "Juego de palabras"
+            },
+            {
+                "id": "d",
+                "texto": "Hipérbole"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Es una metáfora porque identifica directamente la identidad de la persona ('tú eres') con la calidad de sus alimentos ('lo que comes'), sin utilizar un nexo comparativo como 'como'."
+    },
+    {
+        "id": 137,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Geometría - Simetría",
+        "pregunta": "¿Cuántos ejes de simetría tiene en total un hexágono regular?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Uno"
+            },
+            {
+                "id": "b",
+                "texto": "Tres"
+            },
+            {
+                "id": "c",
+                "texto": "Seis"
+            },
+            {
+                "id": "d",
+                "texto": "Doce"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Un hexágono regular tiene 6 ejes de simetría: tres ejes que unen los vértices opuestos y otros tres que unen los puntos medios de sus lados opuestos."
+    },
+    {
+        "id": 138,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Geometría - Simetría",
+        "pregunta": "¿Cuántos ejes de simetría tiene un triángulo isósceles?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Cero"
+            },
+            {
+                "id": "b",
+                "texto": "Uno"
+            },
+            {
+                "id": "c",
+                "texto": "Dos"
+            },
+            {
+                "id": "d",
+                "texto": "Tres"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El triángulo isósceles tiene solo un eje de simetría, que es la línea recta que parte desde el vértice donde se cruzan los dos lados iguales hacia el centro del lado desigual."
+    },
+    {
+        "id": 139,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Geometría - Simetría",
+        "pregunta": "¿Cuál de los siguientes triángulos NO tiene ejes de simetría?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Triángulo Equilátero"
+            },
+            {
+                "id": "b",
+                "texto": "Triángulo Acutángulo Isósceles"
+            },
+            {
+                "id": "c",
+                "texto": "Triángulo Escaleno"
+            },
+            {
+                "id": "d",
+                "texto": "Triángulo Rectángulo Isósceles"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El triángulo escaleno tiene sus tres lados con medidas diferentes, por lo que es imposible trazar un eje que lo divida en mitades exactas o reflejadas."
+    },
+    {
+        "id": 140,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Geometría - Cuadriláteros",
+        "pregunta": "¿Qué cuadrilátero se caracteriza por tener solo un par de lados opuestos que son paralelos?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Cuadrado"
+            },
+            {
+                "id": "b",
+                "texto": "Rectángulo"
+            },
+            {
+                "id": "c",
+                "texto": "Trapecio"
+            },
+            {
+                "id": "d",
+                "texto": "Romboide"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El trapecio es un cuadrilátero con un solo par de lados paralelos llamados 'bases' (base mayor y base menor)."
+    },
+    {
+        "id": 141,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Geometría - Cuadriláteros",
+        "pregunta": "¿Qué cuadrilátero tiene cuatro lados iguales y cuatro ángulos internos rectos (de 90 grados)?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Cuadrado"
+            },
+            {
+                "id": "b",
+                "texto": "Rombo"
+            },
+            {
+                "id": "c",
+                "texto": "Trapecio"
+            },
+            {
+                "id": "d",
+                "texto": "Romboide"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "El cuadrado reúne ambas condiciones: paralelogramo de cuatro lados congruentes (iguales) y cuatro ángulos de 90°."
+    },
+    {
+        "id": 142,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategias de Estudio",
+        "tema": "Métodos y Técnicas",
+        "pregunta": "Según las recomendaciones de estudio, ¿en qué tarea se recomienda usar dos colores, uno para las ideas principales y otro para las secundarias, evitando marcar todo el texto?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Notas al margen"
+            },
+            {
+                "id": "b",
+                "texto": "Prelectura"
+            },
+            {
+                "id": "c",
+                "texto": "Subrayado"
+            },
+            {
+                "id": "d",
+                "texto": "Resumen"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El subrayado busca facilitar la identificación de contenidos importantes dentro del texto, apoyándose visualmente en dos colores distintos para clasificar la información."
+    },
+    {
+        "id": 143,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategias de Estudio",
+        "tema": "Métodos y Técnicas",
+        "pregunta": "¿Qué técnica consiste en una lectura rápida de familiarización para identificar palabras desconocidas y determinar la idea general del texto?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Lectura comprensiva"
+            },
+            {
+                "id": "b",
+                "texto": "Prelectura"
+            },
+            {
+                "id": "c",
+                "texto": "Memorizar"
+            },
+            {
+                "id": "d",
+                "texto": "Esquema"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La prelectura (o lectura exploratoria) sirve para un acercamiento inicial con el material de estudio antes de realizar una concentración profunda."
+    },
+    {
+        "id": 144,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategias de Estudio",
+        "tema": "Métodos y Técnicas",
+        "pregunta": "¿Cuál etapa es considerada el inicio de la fase más importante del método de estudio, ya que permite demostrar la asimilación estructurando jerárquicamente los datos?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "El resumen"
+            },
+            {
+                "id": "b",
+                "texto": "El esquema"
+            },
+            {
+                "id": "c",
+                "texto": "El subrayado"
+            },
+            {
+                "id": "d",
+                "texto": "Las notas al margen"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El esquema permite ver la relación jerárquica de los datos de manera que, con un solo vistazo, se reconozca el tema completo y se demuestre la comprensión."
+    },
+    {
+        "id": 145,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategias de Estudio",
+        "tema": "Mapas Conceptuales",
+        "pregunta": "¿Qué es un mapa conceptual?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Un resumen redactado a mano de todo el temario."
+            },
+            {
+                "id": "b",
+                "texto": "Una gráfica estadística sobre el rendimiento escolar."
+            },
+            {
+                "id": "c",
+                "texto": "Una representación gráfica del conocimiento que muestra una red de conceptos."
+            },
+            {
+                "id": "d",
+                "texto": "Un cuestionario con preguntas y respuestas literales."
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El mapa conceptual es fundamentalmente visual, utilizando nodos (círculos o cajas) que contienen conceptos, entrelazados para formar una red de conocimiento."
+    },
+    {
+        "id": 146,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategias de Estudio",
+        "tema": "Mapas Conceptuales",
+        "pregunta": "En la construcción de un mapa conceptual, ¿cuál es la fase descrita como la más importante porque crea enlaces entre diferentes conceptos usando nexos para formar sentencias lógicas?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Seleccionar"
+            },
+            {
+                "id": "b",
+                "texto": "Agrupar"
+            },
+            {
+                "id": "c",
+                "texto": "Comprobar"
+            },
+            {
+                "id": "d",
+                "texto": "Conectar"
+            }
+        ],
+        "respuesta_correcta": "d",
+        "explicacion": "La conexión (o enlace) es clave porque, mediante flechas y palabras conectoras (nexos), indica cómo los conceptos previamente solitarios se relacionan entre sí."
+    },
+    {
+        "id": 147,
+        "tipo": "opcion_multiple",
+        "materia": "Estrategias de Estudio",
+        "tema": "Herramientas Digitales",
+        "pregunta": "¿Cuál de las siguientes es una herramienta electrónica mencionada específicamente para desarrollar mapas conceptuales?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Photoshop"
+            },
+            {
+                "id": "b",
+                "texto": "MindMeister"
+            },
+            {
+                "id": "c",
+                "texto": "Excel"
+            },
+            {
+                "id": "d",
+                "texto": "Spotify"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "MindMeister, junto con Mindomo y Mind42, son aplicaciones web especializadas en la elaboración de mapas conceptuales y esquemas mentales."
+    },
+    {
+        "id": 148,
+        "tipo": "opcion_multiple",
+        "materia": "Español",
+        "tema": "Textos Literarios",
+        "pregunta": "¿Qué es una fábula?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Un dicho popular y anónimo que expresa un consejo de forma inmediata."
+            },
+            {
+                "id": "b",
+                "texto": "Un relato extenso de ficción con múltiples tramas entrelazadas."
+            },
+            {
+                "id": "c",
+                "texto": "Un relato breve del género didáctico protagonizado por animales u objetos que deja una enseñanza."
+            },
+            {
+                "id": "d",
+                "texto": "Un texto expositivo que detalla descubrimientos científicos recientes."
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Las fábulas son relatos del género didáctico, habitualmente breves, cuyos protagonistas suelen ser animales u objetos con características humanas, y terminan con una moraleja o enseñanza."
+    },
+    {
+        "id": 149,
+        "tipo": "opcion_multiple",
+        "materia": "Español",
+        "tema": "Textos Literarios",
+        "pregunta": "En los textos didácticos y morales breves, ¿cómo se denominan aquellos relatos que están protagonizados principalmente por personas en lugar de animales?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Mitos"
+            },
+            {
+                "id": "b",
+                "texto": "Refranes"
+            },
+            {
+                "id": "c",
+                "texto": "Epopeyas"
+            },
+            {
+                "id": "d",
+                "texto": "Apólogos"
+            }
+        ],
+        "respuesta_correcta": "d",
+        "explicacion": "A diferencia de la fábula tradicional, protagonizada por animales o seres irracionales, el apólogo suele estar protagonizado por personas que dejan una lección moral."
+    },
+    {
+        "id": 150,
+        "tipo": "opcion_multiple",
+        "materia": "Español",
+        "tema": "Ortografía y Puntuación",
+        "pregunta": "En un texto narrativo, ¿qué signo de puntuación se utiliza para indicar las intervenciones de diálogo entre los personajes?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Las comillas (\" \")"
+            },
+            {
+                "id": "b",
+                "texto": "El guion largo (—)"
+            },
+            {
+                "id": "c",
+                "texto": "El punto y coma (;)"
+            },
+            {
+                "id": "d",
+                "texto": "Los paréntesis ( )"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El guion largo (raya) se utiliza al inicio de las intervenciones en un diálogo de un texto narrativo para indicar el cambio de personaje."
+    },
+    {
+        "id": 151,
+        "tipo": "opcion_multiple",
+        "materia": "Español",
+        "tema": "Textos Literarios",
+        "pregunta": "¿Cuál es la principal diferencia entre una fábula y un refrán?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "La fábula es siempre anónima, mientras que el refrán tiene un autor conocido."
+            },
+            {
+                "id": "b",
+                "texto": "La fábula narra una historia para exponer una enseñanza, y el refrán presenta una enseñanza directa sin historia previa."
+            },
+            {
+                "id": "c",
+                "texto": "La fábula se escribe solo en prosa y el refrán se escribe solo en verso."
+            },
+            {
+                "id": "d",
+                "texto": "El refrán es protagonizado por animales y la fábula por personas."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Tanto la fábula como el refrán tienen un carácter didáctico, pero la fábula requiere desarrollar una narrativa (un inicio, clímax y desenlace) para llegar a la moraleja, mientras que el refrán sintetiza la enseñanza en una sola oración popular."
+    },
+    {
+        "id": 152,
+        "tipo": "opcion_multiple",
+        "materia": "Español",
+        "tema": "Textos Literarios",
+        "pregunta": "Lee el siguiente texto:\n\n\"El holgazán y descuidado siempre se halla necesitado y menesteroso.\"\n\nPor su brevedad, carácter didáctico e intención de dar una enseñanza, este tipo de texto se conoce como:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Cuento"
+            },
+            {
+                "id": "b",
+                "texto": "Fábula"
+            },
+            {
+                "id": "c",
+                "texto": "Refrán"
+            },
+            {
+                "id": "d",
+                "texto": "Leyenda"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Un refrán es un dicho popular y anónimo que expresa un consejo o enseñanza de forma muy sintética e inmediata, derivado de la experiencia popular."
+    },
+    {
+        "id": 153,
+        "tipo": "opcion_multiple",
+        "materia": "Español",
+        "tema": "Comprensión Lectora",
+        "pregunta": "¿Cuál es el sentido general que transmite el refrán \"Al mal tiempo, buena cara\"?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Que debemos abrigarnos bien cuando hace mucho frío."
+            },
+            {
+                "id": "b",
+                "texto": "Que aunque las situaciones sean adversas, mantener una actitud positiva puede mejorar la situación."
+            },
+            {
+                "id": "c",
+                "texto": "Que las personas cambian de actitud dependiendo del clima en su ciudad."
+            },
+            {
+                "id": "d",
+                "texto": "Que es conveniente ocultar las emociones en todo momento."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Este refrán aconseja enfrentar las adversidades (el \"mal tiempo\") con buena disposición y optimismo (la \"buena cara\")."
+    },
+    {
+        "id": 154,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Números naturales, fracciones y decimales",
+        "pregunta": "¿Cuánto es 3/4 + 1/8?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "4/12"
+            },
+            {
+                "id": "b",
+                "texto": "7/8"
+            },
+            {
+                "id": "c",
+                "texto": "5/8"
+            },
+            {
+                "id": "d",
+                "texto": "1"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Para sumar fracciones con diferente denominador, buscamos uno común. El común múltiplo de 4 y 8 es 8. Convertimos 3/4 a octavos multiplicando por 2 arriba y abajo: 6/8. Ahora sumamos: 6/8 + 1/8 = 7/8."
+    },
+    {
+        "id": 155,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Proporcionalidad y porcentajes",
+        "pregunta": "Una playera cuesta $240 y tiene 25% de descuento. ¿Cuánto pagarás?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "$60"
+            },
+            {
+                "id": "b",
+                "texto": "$180"
+            },
+            {
+                "id": "c",
+                "texto": "$200"
+            },
+            {
+                "id": "d",
+                "texto": "$190"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El 25% de 240 es la cuarta parte. 240 ÷ 4 = 60. Ese es el descuento. Restamos el descuento al precio original: 240 - 60 = 180."
+    },
+    {
+        "id": 156,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Geometría: figuras, área y perímetros",
+        "pregunta": "¿Cuál es el área de un rectángulo que mide 8 cm de largo y 5 cm de ancho?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "26 cm²"
+            },
+            {
+                "id": "b",
+                "texto": "13 cm²"
+            },
+            {
+                "id": "c",
+                "texto": "40 cm²"
+            },
+            {
+                "id": "d",
+                "texto": "16 cm²"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El área de un rectángulo se obtiene multiplicando la base por su altura (lado x lado). En este caso, 8 cm x 5 cm = 40 cm²."
+    },
+    {
+        "id": 157,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Comprensión lectora",
+        "pregunta": "Lee el texto:\n\n\"Los delfines son mamíferos marinos muy inteligentes. Viven en grupos y se comunican mediante sonidos. Pueden aprender trucos y resolver problemas.\"\n\n¿Cuál es la idea principal del texto?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Los delfines viven en el mar."
+            },
+            {
+                "id": "b",
+                "texto": "Los delfines comen peces."
+            },
+            {
+                "id": "c",
+                "texto": "Los delfines son animales inteligentes que viven en grupo."
+            },
+            {
+                "id": "d",
+                "texto": "Los delfines hacen sonidos."
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La idea principal es la que resume el sentido de todo el texto. Las demás opciones son detalles secundarios o información que no está en el texto."
+    },
+    {
+        "id": 158,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Reglas de acentuación",
+        "pregunta": "¿Cuál palabra está correctamente acentuada?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "arbol"
+            },
+            {
+                "id": "b",
+                "texto": "dificil"
+            },
+            {
+                "id": "c",
+                "texto": "canción"
+            },
+            {
+                "id": "d",
+                "texto": "lapiz"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La palabra 'canción' lleva tilde por ser aguda terminada en 'n'. 'Árbol', 'difícil' y 'lápiz' deberían llevar tilde porque son graves que no terminan en n, s o vocal."
+    },
+    {
+        "id": 159,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Clases de palabras (sustantivo, adjetivo, verbo, etc.)",
+        "pregunta": "En la oración: “María compró un libro interesante.”\n¿Cuál es el verbo?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "María"
+            },
+            {
+                "id": "b",
+                "texto": "compró"
+            },
+            {
+                "id": "c",
+                "texto": "libro"
+            },
+            {
+                "id": "d",
+                "texto": "interesante"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El verbo indica la acción. 'María' es sustantivo propio (sujeto). 'Libro' es sustantivo común, 'interesante' adjetivo y 'compró' es la acción o verbo."
+    },
+    {
+        "id": 160,
+        "tipo": "opcion_multiple",
+        "materia": "Conocimientos Generales",
+        "tema": "Sistemas del cuerpo humano",
+        "pregunta": "¿Cuál es la función principal del sistema respiratorio?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Transportar sangre"
+            },
+            {
+                "id": "b",
+                "texto": "Permitir el intercambio de oxígeno y dióxido de carbono"
+            },
+            {
+                "id": "c",
+                "texto": "Producir energía"
+            },
+            {
+                "id": "d",
+                "texto": "Regular la temperatura"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El sistema respiratorio es el encargado de proveer oxígeno a nuestro cuerpo y desechar el dióxido de carbono que producimos, mediante los pulmones. El transporte de sangre corresponde al sistema circulatorio."
+    },
+    {
+        "id": 161,
+        "tipo": "opcion_multiple",
+        "materia": "Conocimientos Generales",
+        "tema": "Geografía de México: climas, montañas, ríos",
+        "pregunta": "¿Cuál es el río más largo de México?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Río Bravo"
+            },
+            {
+                "id": "b",
+                "texto": "Río Lerma"
+            },
+            {
+                "id": "c",
+                "texto": "Río Usumacinta"
+            },
+            {
+                "id": "d",
+                "texto": "Río Balsas"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "El Río Bravo (o Grande) es el más largo y sirve de frontera natural con Estados Unidos en gran parte de su recorrido."
+    },
+    {
+        "id": 162,
+        "tipo": "opcion_multiple",
+        "materia": "Conocimientos Generales",
+        "tema": "Calentamiento global y medio ambiente",
+        "pregunta": "El calentamiento global es causado principalmente por:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "El movimiento de la Luna"
+            },
+            {
+                "id": "b",
+                "texto": "El exceso de gases de efecto invernadero"
+            },
+            {
+                "id": "c",
+                "texto": "Los terremotos"
+            },
+            {
+                "id": "d",
+                "texto": "La rotación de la Tierra"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El exceso de gases como el dióxido de carbono, producidos por actividades humanas (quema de combustibles fósiles, deforestación), atrapa el calor en la atmósfera impidiendo que salga al espacio, calentando el planeta."
+    },
+    {
+        "id": 163,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Números naturales, fracciones y decimales",
+        "pregunta": "Una receta necesita 2/3 de taza de azúcar. Si solo tienes una taza medidora de 1/6, ¿cuántas veces debes llenarla?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "2"
+            },
+            {
+                "id": "b",
+                "texto": "3"
+            },
+            {
+                "id": "c",
+                "texto": "4"
+            },
+            {
+                "id": "d",
+                "texto": "6"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Para saber cuántos 1/6 caben en 2/3, buscamos fracciones equivalentes. Multiplicamos 2/3 por 2 arriba y abajo para convertir a sextos: (2x2)/(3x2) = 4/6. Entonces necesitas llenar la taza de 1/6 cuatro veces."
+    },
+    {
+        "id": 164,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Proporcionalidad y porcentajes",
+        "pregunta": "Si 4 cuadernos cuestan $72, ¿cuánto costarán 7 cuadernos al mismo precio?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "$98"
+            },
+            {
+                "id": "b",
+                "texto": "$126"
+            },
+            {
+                "id": "c",
+                "texto": "$112"
+            },
+            {
+                "id": "d",
+                "texto": "$108"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Primero obtenemos el valor unitario (cuánto cuesta un cuaderno): 72 ÷ 4 = 18. Luego multiplicamos por los 7 cuadernos: 18 x 7 = 126."
+    },
+    {
+        "id": 165,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Patrones y secuencias numéricas",
+        "pregunta": "Observa la secuencia:\n3, 6, 12, 24, ___",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "36"
+            },
+            {
+                "id": "b",
+                "texto": "48"
+            },
+            {
+                "id": "c",
+                "texto": "30"
+            },
+            {
+                "id": "d",
+                "texto": "60"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El patrón de esta secuencia es multiplicar por 2 el número anterior. 3x2=6, 6x2=12, 12x2=24. El siguiente número es 24x2=48."
+    },
+    {
+        "id": 166,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Proporcionalidad y porcentajes",
+        "pregunta": "En un grupo hay 40 alumnos. El 30% son niñas. ¿Cuántas niñas hay?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "10"
+            },
+            {
+                "id": "b",
+                "texto": "12"
+            },
+            {
+                "id": "c",
+                "texto": "14"
+            },
+            {
+                "id": "d",
+                "texto": "16"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Para calcular el 30% de 40, podemos multiplicar 40 por su valor decimal 0.30 (40 x 0.30 = 12) o bien dividir 40/10=4 (que es el 10%) y multiplicarlo por 3 = 12 niñas."
+    },
+    {
+        "id": 167,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Comprensión lectora",
+        "pregunta": "Lee:\n\"El desierto parece un lugar vacío, pero en realidad alberga una gran variedad de plantas y animales que se han adaptado a las altas temperaturas.\"\n\n¿Qué significa “alberga”?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Destruye"
+            },
+            {
+                "id": "b",
+                "texto": "Oculta"
+            },
+            {
+                "id": "c",
+                "texto": "Aloja"
+            },
+            {
+                "id": "d",
+                "texto": "Calienta"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "En el contexto de la oración, \"alberga\" significa que sirve de hogar o alojamiento a una variedad de plantas y animales."
+    },
+    {
+        "id": 168,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Comprensión lectora",
+        "pregunta": "Lee:\n\"El desierto parece un lugar vacío, pero en realidad alberga una gran variedad de plantas y animales que se han adaptado a las altas temperaturas.\"\n\n¿Qué tipo de texto es?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Narrativo"
+            },
+            {
+                "id": "b",
+                "texto": "Informativo"
+            },
+            {
+                "id": "c",
+                "texto": "Instructivo"
+            },
+            {
+                "id": "d",
+                "texto": "Poético"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Es un texto informativo (o expositivo) porque su objetivo principal es explicar y dar a conocer hechos sobre la flora y la fauna del desierto de forma objetiva."
+    },
+    {
+        "id": 169,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Uso correcto de mayúsculas y puntos",
+        "pregunta": "¿Cuál oración está correctamente escrita?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Ayer fuimos ala playa."
+            },
+            {
+                "id": "b",
+                "texto": "Ayer fuimos a la playa."
+            },
+            {
+                "id": "c",
+                "texto": "Ayer fuimos ala playa"
+            },
+            {
+                "id": "d",
+                "texto": "Ayer fuimos a la playa"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La opción B está correcta: las palabras están separadas debidamente ('a la' y no 'ala'), comienza con mayúscula y termina con el punto final correspondiente."
+    },
+    {
+        "id": 170,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Partes de la oración: sujeto, predicado",
+        "pregunta": "Identifica el sujeto:\n\"Los volcanes activos representan un riesgo.\"",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "activos"
+            },
+            {
+                "id": "b",
+                "texto": "representan"
+            },
+            {
+                "id": "c",
+                "texto": "Los volcanes activos"
+            },
+            {
+                "id": "d",
+                "texto": "riesgo"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El sujeto es la persona, animal o cosa de la que se habla y que realiza la acción del verbo. ¿Quiénes representan un riesgo? \"Los volcanes activos\"."
+    },
+    {
+        "id": 171,
+        "tipo": "opcion_multiple",
+        "materia": "Conocimientos Generales",
+        "tema": "Ambientes y ecosistemas",
+        "pregunta": "Si un ecosistema pierde muchos árboles, ¿qué puede ocurrir?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Aumenta el oxígeno"
+            },
+            {
+                "id": "b",
+                "texto": "Disminuye la biodiversidad"
+            },
+            {
+                "id": "c",
+                "texto": "Se forman más ríos"
+            },
+            {
+                "id": "d",
+                "texto": "No pasa nada"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Los árboles son el hábitat y fuente de alimento para muchas especies; al perderlos, disminuye la variedad de vida y el equilibrio ecológico (biodiversidad)."
+    },
+    {
+        "id": 172,
+        "tipo": "opcion_multiple",
+        "materia": "Conocimientos Generales",
+        "tema": "Ciudadanía, derechos humanos y diversidad",
+        "pregunta": "¿Por qué el Día de la Independencia se celebra el 16 de septiembre?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Porque ese día terminó la guerra"
+            },
+            {
+                "id": "b",
+                "texto": "Porque fue el inicio del movimiento independentista"
+            },
+            {
+                "id": "c",
+                "texto": "Porque se firmó la Constitución"
+            },
+            {
+                "id": "d",
+                "texto": "Porque nació Miguel Hidalgo"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El 16 de septiembre de 1810 se considera el inicio del movimiento de Independencia de México, con el grito de Dolores proclamado por el cura Miguel Hidalgo."
+    },
+    {
+        "id": 173,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Operaciones",
+        "pregunta": "5/6 - 1/3 =",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "4/6"
+            },
+            {
+                "id": "b",
+                "texto": "3/6"
+            },
+            {
+                "id": "c",
+                "texto": "1/2"
+            },
+            {
+                "id": "d",
+                "texto": "2/3"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Para restar, convertimos 1/3 a sextos multiplicando por 2 arriba y abajo: 2/6. Entonces, 5/6 - 2/6 = 3/6. Al simplificar dividiendo entre 3, obtenemos 1/2."
+    },
+    {
+        "id": 174,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Porcentajes",
+        "pregunta": "Si un pantalón cuesta $480 y tiene 15% de descuento, ¿cuánto pagarás?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "$408"
+            },
+            {
+                "id": "b",
+                "texto": "$72"
+            },
+            {
+                "id": "c",
+                "texto": "$420"
+            },
+            {
+                "id": "d",
+                "texto": "$465"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "El 10% de 480 es 48, y el 5% es 24. Así que el 15% de descuento son $72. Pagamos: 480 - 72 = 408."
+    },
+    {
+        "id": 175,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Geometría",
+        "pregunta": "¿Cuál es el área de un triángulo con base 10 cm y altura 6 cm?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "60"
+            },
+            {
+                "id": "b",
+                "texto": "30"
+            },
+            {
+                "id": "c",
+                "texto": "16"
+            },
+            {
+                "id": "d",
+                "texto": "20"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La fórmula del área del triángulo es (base × altura) / 2. Sería (10 × 6) / 2 = 60 / 2 = 30."
+    },
+    {
+        "id": 176,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Secuencias",
+        "pregunta": "Secuencia: 2, 5, 11, 23, ___",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "35"
+            },
+            {
+                "id": "b",
+                "texto": "46"
+            },
+            {
+                "id": "c",
+                "texto": "47"
+            },
+            {
+                "id": "d",
+                "texto": "48"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El patrón es multiplicar el número anterior por 2 y sumarle 1. 2×2+1=5; 5×2+1=11; 11×2+1=23; 23×2+1=47."
+    },
+    {
+        "id": 177,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Proporcionalidad",
+        "pregunta": "Si 3 litros cuestan $54, ¿cuánto cuestan 5 litros?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "$75"
+            },
+            {
+                "id": "b",
+                "texto": "$80"
+            },
+            {
+                "id": "c",
+                "texto": "$90"
+            },
+            {
+                "id": "d",
+                "texto": "$85"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Calculamos el precio de 1 litro dividiendo 54 / 3 = 18. Luego, multiplicamos ese precio por 5 litros: 18 × 5 = 90."
+    },
+    {
+        "id": 178,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Decimales y Fracciones",
+        "pregunta": "Convierte 0.75 a fracción:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "3/4"
+            },
+            {
+                "id": "b",
+                "texto": "7/5"
+            },
+            {
+                "id": "c",
+                "texto": "75/10"
+            },
+            {
+                "id": "d",
+                "texto": "1/3"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "0.75 significa 75 centésimos (75/100). Dividiendo ambos entre 25 obtenemos la forma simplificada: 3/4."
+    },
+    {
+        "id": 179,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Geometría",
+        "pregunta": "El perímetro de un cuadrado es 36 cm. ¿Cuánto mide cada lado?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "6"
+            },
+            {
+                "id": "b",
+                "texto": "9"
+            },
+            {
+                "id": "c",
+                "texto": "12"
+            },
+            {
+                "id": "d",
+                "texto": "18"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El cuadrado tiene 4 lados iguales. Su perímetro se divide en 4: 36 / 4 = 9 cm cada lado."
+    },
+    {
+        "id": 180,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Operaciones",
+        "pregunta": "¿Cuál es el resultado de 2³ × 4?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "16"
+            },
+            {
+                "id": "b",
+                "texto": "32"
+            },
+            {
+                "id": "c",
+                "texto": "24"
+            },
+            {
+                "id": "d",
+                "texto": "12"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "2 elevado a la 3 (2³) es 2 × 2 × 2 = 8. Multiplicado por 4 es 8 × 4 = 32."
+    },
+    {
+        "id": 181,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Comprensión lectora",
+        "pregunta": "Lee:\n\n\"La energía solar es una fuente limpia y renovable. No produce contaminación y puede aprovecharse en muchas regiones del mundo.\"\n\nLa idea principal es:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "La energía solar contamina."
+            },
+            {
+                "id": "b",
+                "texto": "La energía solar es limpia y útil."
+            },
+            {
+                "id": "c",
+                "texto": "La energía se usa en todo el mundo."
+            },
+            {
+                "id": "d",
+                "texto": "La contaminación es un problema."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Esta opción resume el mensaje central: las ventajas y aprovechamiento de la energía solar."
+    },
+    {
+        "id": 182,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Vocabulario",
+        "pregunta": "¿Qué significa “renovable”?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Que se puede volver a usar"
+            },
+            {
+                "id": "b",
+                "texto": "Que se termina rápido"
+            },
+            {
+                "id": "c",
+                "texto": "Que es peligrosa"
+            },
+            {
+                "id": "d",
+                "texto": "Que es costosa"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "Renovable hace referencia a un recurso de la naturaleza (como la luz solar o el viento) que se regenera o no se agota con el uso."
+    },
+    {
+        "id": 183,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Acentuación",
+        "pregunta": "¿Cuál está correctamente acentuada?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "lapíz"
+            },
+            {
+                "id": "b",
+                "texto": "examén"
+            },
+            {
+                "id": "c",
+                "texto": "difícil"
+            },
+            {
+                "id": "d",
+                "texto": "arbol"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "'Difícil' es una palabra grave que termina en 'l' (consonante distinta de 'n' o 's'), por lo tanto lleva tilde. Lo correcto para las otras sería: lápiz, examen, árbol."
+    },
+    {
+        "id": 184,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Gramática",
+        "pregunta": "Identifica el verbo:\n\"Los científicos investigan nuevas vacunas.\"",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "científicos"
+            },
+            {
+                "id": "b",
+                "texto": "investigan"
+            },
+            {
+                "id": "c",
+                "texto": "nuevas"
+            },
+            {
+                "id": "d",
+                "texto": "vacunas"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El verbo es la palabra que describe la acción o proceso realizado por el sujeto; en este caso es la acción de investigar."
+    },
+    {
+        "id": 185,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Tipos de texto",
+        "pregunta": "¿Qué tipo de texto es el fragmento de la energía solar?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Narrativo"
+            },
+            {
+                "id": "b",
+                "texto": "Informativo"
+            },
+            {
+                "id": "c",
+                "texto": "Dramático"
+            },
+            {
+                "id": "d",
+                "texto": "Poético"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El texto intenta explicar datos de la realidad de manera clara y objetiva; carece de personajes o trama literaria."
+    },
+    {
+        "id": 186,
+        "tipo": "opcion_multiple",
+        "materia": "Lengua y Comunicación",
+        "tema": "Redacción",
+        "pregunta": "Elige la oración correcta:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "El perro corria rapido."
+            },
+            {
+                "id": "b",
+                "texto": "El perro corría rápido."
+            },
+            {
+                "id": "c",
+                "texto": "El perro corría rapido."
+            },
+            {
+                "id": "d",
+                "texto": "El perro corria rápido."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "'Corría' lleva tilde para deshacer el diptongo (hiato) y 'rápido' lleva tilde por ser palabra esdrújula."
+    },
+    {
+        "id": 187,
+        "tipo": "opcion_multiple",
+        "materia": "Conocimientos Generales",
+        "tema": "Anatomía",
+        "pregunta": "El órgano que bombea sangre es:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Pulmón"
+            },
+            {
+                "id": "b",
+                "texto": "Hígado"
+            },
+            {
+                "id": "c",
+                "texto": "Corazón"
+            },
+            {
+                "id": "d",
+                "texto": "Riñón"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El corazón es el músculo que se relaja y se contrae para bombear la sangre hacia todo el cuerpo a través del sistema circulatorio."
+    },
+    {
+        "id": 188,
+        "tipo": "opcion_multiple",
+        "materia": "Conocimientos Generales",
+        "tema": "Física y Química",
+        "pregunta": "¿Qué estado de la materia tiene forma y volumen definidos?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Líquido"
+            },
+            {
+                "id": "b",
+                "texto": "Gas"
+            },
+            {
+                "id": "c",
+                "texto": "Sólido"
+            },
+            {
+                "id": "d",
+                "texto": "Vapor"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Los sólidos tienen sus partículas muy unidas y organizadas, por lo que conservan una forma y volumen fijos, a diferencia de líquidos o gases."
+    },
+    {
+        "id": 189,
+        "tipo": "opcion_multiple",
+        "materia": "Conocimientos Generales",
+        "tema": "Economía",
+        "pregunta": "¿Cuál es una actividad económica primaria?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Comercio"
+            },
+            {
+                "id": "b",
+                "texto": "Agricultura"
+            },
+            {
+                "id": "c",
+                "texto": "Transporte"
+            },
+            {
+                "id": "d",
+                "texto": "Publicidad"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Las actividades primarias son aquellas dedicadas a la obtención de materias primas directamente de la naturaleza, como agricultura, ganadería o pesca."
+    },
+    {
+        "id": 190,
+        "tipo": "opcion_multiple",
+        "materia": "Conocimientos Generales",
+        "tema": "Astronomía y Geografía",
+        "pregunta": "El movimiento de rotación de la Tierra produce:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Las estaciones"
+            },
+            {
+                "id": "b",
+                "texto": "Los eclipses"
+            },
+            {
+                "id": "c",
+                "texto": "El día y la noche"
+            },
+            {
+                "id": "d",
+                "texto": "Los terremotos"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El movimiento de la Tierra girando sobre su propio eje (rotación) da como resultado que una cara esté iluminada por el sol y la otra oscurecida."
+    },
+    {
+        "id": 191,
+        "tipo": "opcion_multiple",
+        "materia": "Conocimientos Generales",
+        "tema": "Geografía de México",
+        "pregunta": "¿Cuál es la capital de México?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Guadalajara"
+            },
+            {
+                "id": "b",
+                "texto": "Monterrey"
+            },
+            {
+                "id": "c",
+                "texto": "Puebla"
+            },
+            {
+                "id": "d",
+                "texto": "Ciudad de México"
+            }
+        ],
+        "respuesta_correcta": "d",
+        "explicacion": "La Ciudad de México (CDMX) es la capital política, cultural y financiera del país."
+    },
+    {
+        "id": 192,
+        "tipo": "opcion_multiple",
+        "materia": "Conocimientos Generales",
+        "tema": "Civismo",
+        "pregunta": "Los derechos humanos son:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Privilegios del gobierno"
+            },
+            {
+                "id": "b",
+                "texto": "Leyes escolares"
+            },
+            {
+                "id": "c",
+                "texto": "Derechos que tienen todas las personas"
+            },
+            {
+                "id": "d",
+                "texto": "Normas de tránsito"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Son inherentes a todos los seres humanos desde su nacimiento para garantizar su dignidad e integridad sin distinción."
+    },
+    {
+        "materia": "Lengua y Comunicación",
+        "tema": "Comprensión Lectora",
+        "pregunta": "¿Cuál es la función principal de un texto argumentativo?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Relatar sucesos imaginarios a través de personajes."
+            },
+            {
+                "id": "b",
+                "texto": "Convencer o persuadir al lector sobre una opinión o punto de vista."
+            },
+            {
+                "id": "c",
+                "texto": "Explicar de forma objetiva un fenómeno natural."
+            },
+            {
+                "id": "d",
+                "texto": "Describir las características físicas de un lugar o persona."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El texto argumentativo busca defender una idea o tesis mediante argumentos, con el fin de persuadir al receptor.",
+        "id": 1014,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Lengua y Comunicación",
+        "tema": "Ortografía",
+        "pregunta": "¿Cuál de las siguientes palabras está escrita correctamente?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Exelente"
+            },
+            {
+                "id": "b",
+                "texto": "Desición"
+            },
+            {
+                "id": "c",
+                "texto": "Absorber"
+            },
+            {
+                "id": "d",
+                "texto": "Extructura"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La palabra correcta es 'Absorber'. Los errores en las demás son: 'Excelente', 'Decisión' y 'Estructura'.",
+        "id": 1015,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Lengua y Comunicación",
+        "tema": "Sinónimos",
+        "pregunta": "Selecciona el sinónimo de la palabra 'efímero':",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Duradero"
+            },
+            {
+                "id": "b",
+                "texto": "Permanente"
+            },
+            {
+                "id": "c",
+                "texto": "Pasajero"
+            },
+            {
+                "id": "d",
+                "texto": "Constante"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "'Efímero' significa algo que dura muy poco tiempo, por lo que su sinónimo directo es 'pasajero'.",
+        "id": 1016,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Pensamiento Matemático/Lógica",
+        "tema": "Aritmética",
+        "pregunta": "En una tienda, un artículo cuesta $450, pero tiene un descuento del 20%. ¿Cuánto se pagará por él?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "$360"
+            },
+            {
+                "id": "b",
+                "texto": "$350"
+            },
+            {
+                "id": "c",
+                "texto": "$430"
+            },
+            {
+                "id": "d",
+                "texto": "$380"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "El 20% de 450 es 90. Restamos 450 - 90 = $360.",
+        "id": 1017,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Pensamiento Matemático/Lógica",
+        "tema": "Geometría",
+        "pregunta": "¿Cuál es la fórmula para calcular el área de un círculo?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "π × r"
+            },
+            {
+                "id": "b",
+                "texto": "π × d"
+            },
+            {
+                "id": "c",
+                "texto": "π × r²"
+            },
+            {
+                "id": "d",
+                "texto": "(b × h) / 2"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El área de un círculo se obtiene multiplicando Pi (π) por el radio al cuadrado (r²).",
+        "id": 1018,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Pensamiento Matemático/Lógica",
+        "tema": "Sucesiones",
+        "pregunta": "¿Qué número sigue en la secuencia: 2, 6, 12, 20, 30, ___?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "40"
+            },
+            {
+                "id": "b",
+                "texto": "42"
+            },
+            {
+                "id": "c",
+                "texto": "38"
+            },
+            {
+                "id": "d",
+                "texto": "44"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Las diferencias entre los números son: +4, +6, +8, +10. La siguiente diferencia debe ser +12, por lo que 30 + 12 = 42.",
+        "id": 1019,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Ciencias Naturales",
+        "tema": "Biología",
+        "pregunta": "¿Qué nombre recibe el proceso mediante el cual las plantas elaboran su propio alimento?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Respiración"
+            },
+            {
+                "id": "b",
+                "texto": "Polinización"
+            },
+            {
+                "id": "c",
+                "texto": "Fotosíntesis"
+            },
+            {
+                "id": "d",
+                "texto": "Digestión"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La fotosíntesis es el proceso metabólico por el cual las plantas sintetizan sustancias orgánicas empleando la energía luminosa.",
+        "id": 1020,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Ciencias Naturales",
+        "tema": "Ecología",
+        "pregunta": "¿Cuál es un ejemplo de energía renovable?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Petróleo"
+            },
+            {
+                "id": "b",
+                "texto": "Carbón"
+            },
+            {
+                "id": "c",
+                "texto": "Energía Eólica"
+            },
+            {
+                "id": "d",
+                "texto": "Gas Natural"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La energía eólica proviene del viento, el cual es un recurso natural inagotable, a diferencia de los combustibles fósiles.",
+        "id": 1021,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Ciencias Naturales",
+        "tema": "Cuerpo Humano",
+        "pregunta": "¿Cuál de los siguientes órganos forma parte del sistema circulatorio?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Pulmones"
+            },
+            {
+                "id": "b",
+                "texto": "Estómago"
+            },
+            {
+                "id": "c",
+                "texto": "Corazón"
+            },
+            {
+                "id": "d",
+                "texto": "Cerebro"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El corazón es el órgano muscular principal que bombea la sangre a través del sistema circulatorio.",
+        "id": 1022,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Historia",
+        "tema": "Historia de México",
+        "pregunta": "¿En qué año se consumó la Independencia de México?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "1810"
+            },
+            {
+                "id": "b",
+                "texto": "1821"
+            },
+            {
+                "id": "c",
+                "texto": "1910"
+            },
+            {
+                "id": "d",
+                "texto": "1857"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La Independencia de México inició el 16 de septiembre de 1810 y se consumó el 27 de septiembre de 1821.",
+        "id": 1023,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Geografía",
+        "tema": "México",
+        "pregunta": "¿Cuál es el río más largo de México?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Río Pánuco"
+            },
+            {
+                "id": "b",
+                "texto": "Río Bravo"
+            },
+            {
+                "id": "c",
+                "texto": "Río Colorado"
+            },
+            {
+                "id": "d",
+                "texto": "Río Grijalva"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El Río Bravo es el río más largo de México, siendo frontera natural entre México y Estados Unidos.",
+        "id": 1024,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Historia",
+        "tema": "Historia Universal",
+        "pregunta": "¿Cuál civilización construyó las pirámides de Giza?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Romana"
+            },
+            {
+                "id": "b",
+                "texto": "Griega"
+            },
+            {
+                "id": "c",
+                "texto": "Egipcia"
+            },
+            {
+                "id": "d",
+                "texto": "Maya"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Las pirámides de Giza fueron construidas por la civilización del Antiguo Egipto como tumbas para los faraones.",
+        "id": 1025,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Formación Cívica y Ética",
+        "tema": "Valores",
+        "pregunta": "Es el valor que consiste en reconocer, aceptar, apreciar y valorar las cualidades de los demás y sus derechos.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Justicia"
+            },
+            {
+                "id": "b",
+                "texto": "Respeto"
+            },
+            {
+                "id": "c",
+                "texto": "Libertad"
+            },
+            {
+                "id": "d",
+                "texto": "Solidaridad"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "El respeto implica reconocer el valor propio y el de los demás, garantizando una convivencia armónica.",
+        "id": 1026,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Pensamiento Matemático/Lógica",
+        "tema": "Fracciones",
+        "pregunta": "Al sumar 1/4 + 1/2, ¿cuál es el resultado?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "2/6"
+            },
+            {
+                "id": "b",
+                "texto": "3/4"
+            },
+            {
+                "id": "c",
+                "texto": "2/4"
+            },
+            {
+                "id": "d",
+                "texto": "3/8"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Convertimos 1/2 a 2/4. Sumamos 1/4 + 2/4 = 3/4.",
+        "id": 1027,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "materia": "Lengua y Comunicación",
+        "tema": "Gramática",
+        "pregunta": "En la oración 'La casa azul es de Juan', ¿cuál es el adjetivo?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "La"
+            },
+            {
+                "id": "b",
+                "texto": "casa"
+            },
+            {
+                "id": "c",
+                "texto": "azul"
+            },
+            {
+                "id": "d",
+                "texto": "Juan"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "El adjetivo 'azul' califica o describe al sustantivo 'casa'.",
+        "id": 1028,
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 900,
+        "tipo": "opcion_multiple",
+        "materia": "Pensamiento Matemático",
+        "tema": "Manejo de Información",
+        "pregunta": "En una gráfica de barras sobre ventas, la barra de 'Lunes' llega al 15 y la de 'Martes' al 25. ¿Cuál es el incremento en ventas de Lunes a Martes?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "5 unidades"
+            },
+            {
+                "id": "b",
+                "texto": "10 unidades"
+            },
+            {
+                "id": "c",
+                "texto": "15 unidades"
+            },
+            {
+                "id": "d",
+                "texto": "25 unidades"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Resta: 25 (Martes) - 15 (Lunes) = 10. Siempre identifica los valores en el eje Y antes de operar."
+    },
+    {
+        "id": 901,
+        "materia": "Oxford English Prep",
+        "tema": "Present Simple",
+        "pregunta": "Choose the correct option: 'She _______ to school every day.'",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "go"
+            },
+            {
+                "id": "b",
+                "texto": "goes"
+            },
+            {
+                "id": "c",
+                "texto": "going"
+            },
+            {
+                "id": "d",
+                "texto": "gone"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "En Present Simple, para la tercera persona (She/He/It) agregamos 's' o 'es' al verbo.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 902,
+        "materia": "Pensamiento Matemático",
+        "tema": "Fracciones",
+        "pregunta": "¿Qué fracción de un pastel queda si Ariadna se come 1/4 y su hermano se come 2/4?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "1/4"
+            },
+            {
+                "id": "b",
+                "texto": "3/4"
+            },
+            {
+                "id": "c",
+                "texto": "1/2"
+            },
+            {
+                "id": "d",
+                "texto": "Nada"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "1/4 + 2/4 = 3/4 comidos. El entero (4/4) menos 3/4 es igual a 1/4.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 903,
+        "materia": "Lengua y Comunicación",
+        "tema": "Nexos y Conectores",
+        "pregunta": "Selecciona el nexo que indica CAUSA: 'No fui a la escuela __________ estaba enfermo'.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "pero"
+            },
+            {
+                "id": "b",
+                "texto": "porque"
+            },
+            {
+                "id": "c",
+                "texto": "aunque"
+            },
+            {
+                "id": "d",
+                "texto": "entonces"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "'Porque' es un nexo causal. Explica la razón por la que no fue a la escuela.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 904,
+        "materia": "Oxford English Prep",
+        "tema": "Present Continuous",
+        "pregunta": "Look! The children ________ in the park right now.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "play"
+            },
+            {
+                "id": "b",
+                "texto": "playing"
+            },
+            {
+                "id": "c",
+                "texto": "is playing"
+            },
+            {
+                "id": "d",
+                "texto": "are playing"
+            }
+        ],
+        "respuesta_correcta": "d",
+        "explicacion": "Usamos Present Continuous (am/is/are + verb-ing) para acciones que ocurren en este momento.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 905,
+        "materia": "Pensamiento Matemático",
+        "tema": "Decimales",
+        "pregunta": "¿Cuál de los siguientes números es el MAYOR?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "0.5"
+            },
+            {
+                "id": "b",
+                "texto": "0.05"
+            },
+            {
+                "id": "c",
+                "texto": "0.55"
+            },
+            {
+                "id": "d",
+                "texto": "0.150"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Al comparar decimales, rellena con ceros: 0.50, 0.05, 0.55, 0.15. 0.55 es el valor más alto.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 906,
+        "materia": "Lengua y Comunicación",
+        "tema": "Adverbios",
+        "pregunta": "En la frase 'Ella corre MUY rápido', ¿qué tipo de palabra es MUY?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Sustantivo"
+            },
+            {
+                "id": "b",
+                "texto": "Adjetivo"
+            },
+            {
+                "id": "c",
+                "texto": "Adverbio de cantidad"
+            },
+            {
+                "id": "d",
+                "texto": "Verbo"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "'Muy' es un adverbio que modifica al adjetivo 'rápido', indicando intensidad o cantidad.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 907,
+        "materia": "Pensamiento Matemático",
+        "tema": "Geometría",
+        "pregunta": "¿Cómo se llama el triángulo que tiene sus tres lados IGUALES?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Isósceles"
+            },
+            {
+                "id": "b",
+                "texto": "Escaleno"
+            },
+            {
+                "id": "c",
+                "texto": "Equilátero"
+            },
+            {
+                "id": "d",
+                "texto": "Rectángulo"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Equi (igual) + látero (lado). El triángulo equilátero tiene sus 3 lados de la misma medida.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 908,
+        "materia": "Oxford English Prep",
+        "tema": "Vocabulary - City",
+        "pregunta": "Where can you buy bread?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "A library"
+            },
+            {
+                "id": "b",
+                "texto": "A bakery"
+            },
+            {
+                "id": "c",
+                "texto": "A chemist's"
+            },
+            {
+                "id": "d",
+                "texto": "A bank"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "A 'bakery' is a place where bread and cakes are made and sold.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 909,
+        "materia": "Lengua y Comunicación",
+        "tema": "Sustantivos y Adjetivos",
+        "pregunta": "Selecciona la frase donde el adjetivo es 'brillante':",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "El sol sale temprano."
+            },
+            {
+                "id": "b",
+                "texto": "La estrella brillante destaca en el cielo."
+            },
+            {
+                "id": "c",
+                "texto": "Ariadna estudia mucho."
+            },
+            {
+                "id": "d",
+                "texto": "El libro tiene muchas hojas."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "'Brillante' es el adjetivo que califica a la 'estrella'.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 910,
+        "materia": "Pensamiento Matemático",
+        "tema": "Manejo de Información",
+        "pregunta": "En un grupo de edades: 10, 11, 10, 12, 10, 13. ¿Cuál es la MODA?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "11"
+            },
+            {
+                "id": "b",
+                "texto": "12"
+            },
+            {
+                "id": "c",
+                "texto": "10"
+            },
+            {
+                "id": "d",
+                "texto": "6"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "La moda es el dato que más se repite. El 10 aparece 3 veces, más que cualquier otro número.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 911,
+        "materia": "Oxford English Prep",
+        "tema": "Listening Clues",
+        "pregunta": "If someone says: 'Take the first on the left, then go straight on', what are they doing?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Buying food"
+            },
+            {
+                "id": "b",
+                "texto": "Greeting a friend"
+            },
+            {
+                "id": "c",
+                "texto": "Giving directions"
+            },
+            {
+                "id": "d",
+                "texto": "Explaining a recipe"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "'Left', 'straight on' y 'first on the...' son frases clave para dar direcciones.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 912,
+        "materia": "Pensamiento Matemático",
+        "tema": "Geometría - Ángulos",
+        "pregunta": "¿Qué nombre recibe un ángulo que mide exactamente 90 grados?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Agudo"
+            },
+            {
+                "id": "b",
+                "texto": "Obtuso"
+            },
+            {
+                "id": "c",
+                "texto": "Recto"
+            },
+            {
+                "id": "d",
+                "texto": "Llano"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Los ángulos de 90° se llaman ángulos rectos y forman una 'L' perfecta.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 913,
+        "materia": "Lengua y Comunicación",
+        "tema": "Acentuación",
+        "pregunta": "Selecciona la palabra que es AGUDA (su sílaba tónica es la última):",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Cárcel"
+            },
+            {
+                "id": "b",
+                "texto": "Cantar"
+            },
+            {
+                "id": "c",
+                "texto": "Lápiz"
+            },
+            {
+                "id": "d",
+                "texto": "Médico"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "En 'Can-tar', la fuerza de voz está en la última sílaba. Es aguda aunque no lleve tilde (termina en 'r').",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 914,
+        "materia": "Oxford English Prep",
+        "tema": "Vocabulary - Home",
+        "pregunta": "Where do you usually cook 'dinner'?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "In the bedroom"
+            },
+            {
+                "id": "b",
+                "texto": "In the bathroom"
+            },
+            {
+                "id": "c",
+                "texto": "In the kitchen"
+            },
+            {
+                "id": "d",
+                "texto": "In the garden"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "The 'kitchen' is the room in a house where food is prepared and cooked.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 915,
+        "materia": "Lengua y Comunicación",
+        "tema": "Sinónimos en Contexto",
+        "pregunta": "En la frase 'El clima era GÉLIDO', un sinónimo de la palabra resaltada es:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Caluroso"
+            },
+            {
+                "id": "b",
+                "texto": "Templado"
+            },
+            {
+                "id": "c",
+                "texto": "Muy frío"
+            },
+            {
+                "id": "d",
+                "texto": "Lluvioso"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "'Gélido' significa extremadamente frío o helado.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 916,
+        "materia": "Pensamiento Matemático",
+        "tema": "Aritmética - Decimales",
+        "pregunta": "Si un chocolate cuesta $12.50 y Ariadna compra tres, ¿cuánto debe pagar?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "$36.50"
+            },
+            {
+                "id": "b",
+                "texto": "$37.00"
+            },
+            {
+                "id": "c",
+                "texto": "$37.50"
+            },
+            {
+                "id": "d",
+                "texto": "$35.00"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "12.50 x 3 = 37.50. Recuerda colocar el punto decimal correctamente en el resultado.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 917,
+        "materia": "Pensamiento Matemático",
+        "tema": "Fracciones",
+        "pregunta": "¿Qué es mayor: 3/4 o 0.8?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "3/4"
+            },
+            {
+                "id": "b",
+                "texto": "0.8"
+            },
+            {
+                "id": "c",
+                "texto": "Son iguales"
+            },
+            {
+                "id": "d",
+                "texto": "No se pueden comparar"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "3/4 es igual a 0.75. Por lo tanto, 0.8 es mayor que 0.75.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 918,
+        "materia": "Lengua y Comunicación",
+        "tema": "Signos de Puntuación",
+        "pregunta": "¿Dónde debe ir la coma en la frase: 'Ariadna tráeme el libro'?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Ariadna tráeme, el libro"
+            },
+            {
+                "id": "b",
+                "texto": "Ariadna, tráeme el libro"
+            },
+            {
+                "id": "c",
+                "texto": "Ariadna tráeme el, libro"
+            },
+            {
+                "id": "d",
+                "texto": "No lleva coma"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Se usa coma para separar el vocativo (el nombre de la persona a la que le hablas) del resto de la oración.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 919,
+        "materia": "Oxford English Prep",
+        "tema": "Present Continuous",
+        "pregunta": "Listen! The teacher __________ instructions now.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "gives"
+            },
+            {
+                "id": "b",
+                "texto": "is giving"
+            },
+            {
+                "id": "c",
+                "texto": "give"
+            },
+            {
+                "id": "d",
+                "texto": "giving"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Usamos Present Continuous (is giving) porque la palabra 'Listen!' indica que la acción ocurre ahora.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 920,
+        "materia": "Pensamiento Matemático",
+        "tema": "Fracciones",
+        "pregunta": "Simplifica la fracción 8/12:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "4/6"
+            },
+            {
+                "id": "b",
+                "texto": "2/3"
+            },
+            {
+                "id": "c",
+                "texto": "1/2"
+            },
+            {
+                "id": "d",
+                "texto": "3/2"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Dividimos ambos números entre 4: 8÷4=2 y 12÷4=3. La fracción simplificada es 2/3.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 921,
+        "materia": "Lengua y Comunicación",
+        "tema": "Signos de Puntuación",
+        "pregunta": "Selecciona la oración con puntuación CORRECTA:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Compré: peras, manzanas y uvas."
+            },
+            {
+                "id": "b",
+                "texto": "A Ariadna le gusta, cantar y bailar."
+            },
+            {
+                "id": "c",
+                "texto": "Fuimos al cine; sin embargo, estaba cerrado."
+            },
+            {
+                "id": "d",
+                "texto": "¡Qué, alegría verte!"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Se usa punto y coma antes de conectores como 'sin embargo' en oraciones largas.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 922,
+        "materia": "Oxford English Prep",
+        "tema": "Present Simple vs Continuous",
+        "pregunta": "I usually ________ coffee, but today I ________ tea.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "drink / am drinking"
+            },
+            {
+                "id": "b",
+                "texto": "am drinking / drink"
+            },
+            {
+                "id": "c",
+                "texto": "drinks / drinks"
+            },
+            {
+                "id": "d",
+                "texto": "drinking / drinking"
+            }
+        ],
+        "respuesta_correcta": "a",
+        "explicacion": "'Usually' indica hábito (Present Simple), 'today' indica algo temporal (Present Continuous).",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 923,
+        "materia": "Pensamiento Matemático",
+        "tema": "Decimales",
+        "pregunta": "Escribe 0.25 como fracción simplificada:",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "25/10"
+            },
+            {
+                "id": "b",
+                "texto": "1/4"
+            },
+            {
+                "id": "c",
+                "texto": "1/2"
+            },
+            {
+                "id": "d",
+                "texto": "5/2"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "0.25 es un cuarto de la unidad, es decir, 1/4.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 924,
+        "materia": "Lengua y Comunicación",
+        "tema": "Signos de Puntuación",
+        "pregunta": "¿Qué signo se usa para introducir una enumeración?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Punto y coma"
+            },
+            {
+                "id": "b",
+                "texto": "Dos puntos"
+            },
+            {
+                "id": "c",
+                "texto": "Comillas"
+            },
+            {
+                "id": "d",
+                "texto": "Paréntesis"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Los dos puntos (:) se utilizan antes de comenzar una lista o enumeración.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 925,
+        "materia": "Oxford English Prep",
+        "tema": "Vocabulary - Food",
+        "pregunta": "Vegetarians don't eat __________.",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "vegetables"
+            },
+            {
+                "id": "b",
+                "texto": "fruit"
+            },
+            {
+                "id": "c",
+                "texto": "meat"
+            },
+            {
+                "id": "d",
+                "texto": "cheese"
+            }
+        ],
+        "respuesta_correcta": "c",
+        "explicacion": "Meat is the correct answer as vegetarians avoid it.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 926,
+        "materia": "Pensamiento Matemático",
+        "tema": "Orden de Operaciones",
+        "pregunta": "Resuelve: 2 + 3 x 4",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "20"
+            },
+            {
+                "id": "b",
+                "texto": "14"
+            },
+            {
+                "id": "c",
+                "texto": "10"
+            },
+            {
+                "id": "d",
+                "texto": "9"
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Jerarquía de operaciones: primero se multiplica (3x4=12) y luego se suma (2+12=14).",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 1001,
+        "materia": "Estrategia Académica",
+        "tema": "Gestión del Tiempo",
+        "pregunta": "¿Qué debes hacer si una pregunta te toma más de 45 segundos sin que veas una solución clara?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Seguir intentando hasta resolverla."
+            },
+            {
+                "id": "b",
+                "texto": "Marcarla, seguir con la siguiente y volver al final."
+            },
+            {
+                "id": "c",
+                "texto": "Adivinar inmediatamente."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "La regla de oro de la Ibero: No te atores. Si pasa de 45 seg, marca y avanza.",
+        "tipo": "opcion_multiple"
+    },
+    {
+        "id": 1002,
+        "materia": "Estrategia Académica",
+        "tema": "Descarte de Opciones",
+        "pregunta": "Si en una pregunta de opción múltiple detectas dos opciones que son opuestas entre sí, ¿qué es lo más probable?",
+        "opciones": [
+            {
+                "id": "a",
+                "texto": "Que ambas sean incorrectas."
+            },
+            {
+                "id": "b",
+                "texto": "Que una de las dos sea la correcta."
+            },
+            {
+                "id": "c",
+                "texto": "Que el examen esté mal redactado."
+            }
+        ],
+        "respuesta_correcta": "b",
+        "explicacion": "Táctica de Descarte: Las opciones opuestas suelen contener la respuesta correcta y un distractor común.",
+        "tipo": "opcion_multiple"
+    }
+]

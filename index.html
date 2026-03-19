@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Ibero - Simulador Académico</title>
+    <!-- Google Fonts for Modern Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description"
+        content="Simulador de examen de admisión a la Secundaria Iberoamericana, con estrategias tácticas.">
+</head>
+
+<body class="auth-locked">
+    <div id="auth-gate" class="auth-gate">
+        <div class="auth-card">
+            <div class="auth-brand">Ariadna <span>AI</span></div>
+            <h1>Acceso Restringido</h1>
+            <p>Ingresa tus credenciales para continuar al simulador web.</p>
+            <form id="auth-form" class="auth-form">
+                <label for="auth-username">Usuario</label>
+                <input id="auth-username" name="username" type="text" autocomplete="username" placeholder="Usuario">
+                <label for="auth-password">Password</label>
+                <input id="auth-password" name="password" type="password" autocomplete="current-password" placeholder="Password">
+                <button type="submit" class="btn btn-primary auth-submit">Entrar</button>
+                <p id="auth-error" class="auth-error hidden">Usuario o password incorrecto.</p>
+                <p class="auth-note">Esta proteccion es basica para navegador. Para seguridad real en internet necesitaremos autenticacion del lado del servidor o un proveedor externo.</p>
+            </form>
+        </div>
+    </div>
+    <div id="app" class="app-layout">
+        <!-- Sidebar Navigation (Premium) -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">Ariadna <span>AI</span></div>
+            </div>
+            <nav class="sidebar-nav">
+                <button class="nav-item active" id="nav-dashboard" onclick="backToHome(this)">
+                    <span class="nav-icon">🏠</span> Dashboard
+                </button>
+                <div class="nav-divider">Estudio Táctico</div>
+
+                <button class="nav-item" id="nav-estrategia" onclick="enterModule('estrategia', this)">
+                    <span class="nav-icon"><img src="infoexterna/imagenes/estrategia_icon.png"
+                            class="nav-icon-img"></span> Estrategia y Táctica de Examen
+                </button>
+
+                <!-- Acordeón de Aprendizaje -->
+                <div class="nav-group">
+                    <button class="nav-item nav-group-toggle"
+                        onclick="toggleNavGroup('nav-aprendizaje'); enterModule('aprendizaje', this)">
+                        <span class="nav-icon">📚</span> Aprendizaje <span class="arrow">▼</span>
+                    </button>
+                    <div id="nav-aprendizaje" class="nav-sub">
+                        <button class="nav-sub-item"
+                            onclick="enterModule('aprendizaje', null, 'PENSAMIENTO MATEMÁTICO')">🧮 Matemáticas</button>
+                        <button class="nav-sub-item"
+                            onclick="enterModule('aprendizaje', null, 'LENGUA Y COMUNICACIÓN')">📖 Lenguaje</button>
+                        <button class="nav-sub-item" onclick="enterModule('aprendizaje', null, 'CIENCIAS NATURALES')">🧪
+                            Ciencias</button>
+                        <button class="nav-sub-item" onclick="enterModule('aprendizaje', null, 'ÉTICA Y SOCIEDAD')">🌍
+                            Sociedad</button>
+                    </div>
+                </div>
+
+                <button class="nav-item" id="nav-english" onclick="enterModule('english', this)">
+                    <span class="nav-icon"><img src="infoexterna/imagenes/oxford_badge.png" class="nav-icon-img"></span>
+                    Oxford English
+                </button>
+
+                <div class="nav-divider">Entrenamiento</div>
+                <button class="nav-item" onclick="enterModule('simulador', this)">
+                    <span class="nav-icon">⏱️</span> Simulador
+                </button>
+            </nav>
+            <div class="sidebar-footer">
+                <button class="nav-item special btn-shadow" onclick="initiateFinalDemoExam()">
+                    <span class="nav-icon">🚀</span> Iniciar Examen Demo
+                </button>
+                <button class="nav-item secondary-auth" onclick="logoutApp()">
+                    <span class="nav-icon">ðŸ”’</span> Cerrar Sesion
+                </button>
+                <p>Simulador Ibero v1.6</p>
+            </div>
+        </aside>
+
+        <div id="main-content" class="main-content">
+            <!-- Banner de Advertencia Técnica -->
+            <div id="cors-warning" class="technical-warning hidden">
+                <p>⚠️ <strong>Modo de Emergencia Activo:</strong> El texto y las preguntas están en modo demostración porque no se
+                    detectó un servidor. Inicia esta copia con <strong>npm run serve</strong> y abre <strong>http://127.0.0.1:4173</strong> para ver el contenido completo.</p>
+            </div>
+            <!-- Dashboard Principal (Premium) -->
+            <main id="home-screen" class="screen active">
+                <header class="main-header">
+                    <div class="user-profile">
+                        <span class="avatar">A</span>
+                        <div class="welcome-text">
+                            <p>Hola de nuevo,</p>
+                            <h1>Ariadna</h1>
+                        </div>
+                    </div>
+                    <div class="quick-actions hidden">
+                        <!-- Boton movido al sidebar -->
+                    </div>
+                </header>
+
+                <section class="module-grid">
+                    <!-- Módulo 0: Estrategia -->
+                    <div class="module-card card-strategy" onclick="enterModule('estrategia')">
+                        <div class="card-icon"><img src="infoexterna/imagenes/estrategia_icon.png"
+                                class="card-icon-img"></div>
+                        <div class="card-content">
+                            <h2>Estrategia y Táctica de Examen</h2>
+                            <p>Domina el descarte y la gestión del tiempo.</p>
+                            <div class="progress-mini">
+                                <div class="fill" style="width: 15%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Módulo 1: Aprendizaje -->
+                    <div class="module-card card-learning" onclick="enterModule('aprendizaje')">
+                        <div class="card-icon">📚</div>
+                        <div class="card-content">
+                            <h2>Módulos de Aprendizaje</h2>
+                            <p>Guías, audios y videos pedagógicos.</p>
+                            <div class="progress-mini">
+                                <div class="fill" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Módulo 2: Simulador -->
+                    <div class="module-card card-simulador" onclick="enterModule('simulador')">
+                        <div class="card-icon">⏱️</div>
+                        <div class="card-content">
+                            <h2>Simulador Adaptativo</h2>
+                            <p>Práctica enfocada en tus áreas de oportunidad.</p>
+                        </div>
+                    </div>
+
+                    <!-- Módulo 3: Oxford English -->
+                    <div class="module-card card-english" onclick="enterModule('english')">
+                        <div class="card-icon"><img src="infoexterna/imagenes/oxford_badge.png" class="card-icon-img">
+                        </div>
+                        <div class="card-content">
+                            <h2>Oxford English Prep</h2>
+                            <p>Multi-nivel (A1-C1): Preparación OTE.</p>
+                        </div>
+                    </div>
+
+                    <!-- NUEVO: Test de Ubicación de Inglés -->
+                    <div class="module-card card-placement" onclick="startPlacementTest()">
+                        <div class="card-icon">⚡</div>
+                        <div class="card-content">
+                            <h2>Placement Test</h2>
+                            <p>Examen de Ubicación: Descubre tu nivel ahora.</p>
+                        </div>
+                    </div>
+
+                    <!-- Módulo 4: Examen Final -->
+                    <div class="module-card card-examen-final" onclick="initiateFinalDemoExam()">
+                        <div class="card-icon">🎓</div>
+                        <div class="card-content">
+                            <h2>Examen Demo INTEGRAL</h2>
+                            <p>Ibero + Oxford English (100 reactivos).</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="learning-evolution">
+                    <div class="section-head">
+                        <div>
+                            <h3>EvoluciÃ³n del Aprendizaje</h3>
+                            <p id="evolution-summary">Tu progreso acumulado aparecerÃ¡ aquÃ­ conforme completes sesiones.</p>
+                        </div>
+                    </div>
+                    <div id="evolution-kpis" class="evolution-kpi-grid"></div>
+                    <div id="evolution-domains" class="domain-progress-grid"></div>
+                    <div class="section-head compact">
+                        <div>
+                            <h3>Historial Reciente</h3>
+                            <p>Las Ãºltimas sesiones mostrarÃ¡n quÃ© mejorÃ³ y quÃ© conviene reforzar.</p>
+                        </div>
+                    </div>
+                    <div id="recent-sessions" class="session-history-list"></div>
+                </section>
+
+                <section class="areas-oportunidad">
+                    <h3>Tus Áreas de Oportunidad (IA)</h3>
+                    <div class="tags-container">
+                        <span class="tag critico">Manejo de Información</span>
+                        <span class="tag critico">Interpretación Textual</span>
+                        <span class="tag">Fracciones</span>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Pantalla de Módulo de Aprendizaje / Temario -->
+            <main id="learning-menu-screen" class="screen">
+                <header class="quiz-header">
+                    <button class="btn btn-icon" onclick="backToHome()">⬅ Volver</button>
+                    <h1>Ruta de Aprendizaje</h1>
+                </header>
+                <div id="syllabus-container" class="syllabus-list">
+                    <!-- Temario se cargará aquí -->
+                </div>
+            </main>
+
+            <!-- Pantalla de Lección Multimodal (4 Fases) -->
+            <main id="lesson-screen" class="screen">
+                <header class="quiz-header">
+                    <button class="btn btn-back" onclick="backToLearningMenu()">
+                        <span class="icon">⬅</span> Volver al Temario
+                    </button>
+                    <div class="lesson-header-info">
+                        <span id="lesson-badge" class="badge">Materia</span>
+                        <h1 id="lesson-title">Cargando Lección...</h1>
+                    </div>
+                </header>
+
+                <div class="phase-stepper">
+                    <div class="phase-step active" id="step-1" onclick="switchPhase(1)">
+                        <div class="step-icon">📖</div>
+                        <div class="phase-label">Lectura</div>
+                    </div>
+                    <div class="phase-step" id="step-2" onclick="switchPhase(2)">
+                        <div class="step-icon">🎬</div>
+                        <div class="phase-label">Multimedia</div>
+                    </div>
+                    <div class="phase-step" id="step-3" onclick="switchPhase(3)">
+                        <div class="step-icon">🎯</div>
+                        <div class="phase-label">Práctica</div>
+                    </div>
+                    <div class="phase-step" id="step-4" onclick="switchPhase(4)">
+                        <div class="step-icon">🏆</div>
+                        <div class="phase-label">Evaluación</div>
+                    </div>
+                </div>
+
+                <!-- Contenidos de Fase -->
+                <div id="phase-reading" class="phase-content">
+                    <article id="lesson-text" class="lesson-body text-long">
+                        <!-- Contenido Markdown -->
+                    </article>
+                </div>
+
+                <div id="phase-multimedia" class="phase-content" style="display:none">
+                    <div id="audio-player-container" class="info-card hidden mb-4">
+                        <h3>🎧 Audio Master</h3>
+                        <audio id="lesson-audio" controls style="width:100%; margin-top:1rem;"></audio>
+                    </div>
+                    <div class="video-grid">
+                        <!-- Cards de video dinámicas -->
+                    </div>
+                </div>
+
+                <div id="phase-practice" class="phase-content" style="display:none">
+                    <div id="practice-area">
+                        <!-- Cuestionarios dinámicos -->
+                    </div>
+                </div>
+
+                <div id="phase-evaluation" class="phase-content" style="display:none">
+                    <div class="evaluation-card text-center">
+                        <div class="large-icon">🏆</div>
+                        <h3>Certificación de Tema</h3>
+                        <p>Has completado las fases de instrucción. Valida tu rentabilidad táctica en este tema para
+                            avanzar.</p>
+                        <button class="btn btn-primary" onclick="startLessonEvaluation()">Iniciar Evaluación
+                            Final</button>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Pantalla del Simulador (Mantenida pero mejorada visualmente) -->
+            <main id="quiz-screen" class="screen">
+                <header class="quiz-header">
+                    <button class="btn btn-icon" onclick="backToHome()">⬅ Volver</button>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-bar"></div>
+                    </div>
+                    <div class="timer" id="timer">00:00</div>
+                </header>
+
+                <section id="question-container" class="question-container fading-in">
+                    <div class="badge" id="materia-badge">Materia</div>
+                    <h3 id="tema-text" class="tema-text">Tema</h3>
+                    <h2 id="pregunta-text" class="pregunta-text">Cargando pregunta...</h2>
+
+                    <div id="options-container" class="options-container">
+                        <!-- Opciones dinámicas -->
+                    </div>
+                </section>
+
+                <section id="feedback-container" class="feedback-container hidden">
+                    <div class="feedback-icon" id="feedback-icon"></div>
+                    <h3 id="feedback-title"></h3>
+                    <p id="feedback-text"></p>
+                    <button class="btn btn-primary mt-3" onclick="nextQuestion()">Siguiente Pregunta</button>
+                </section>
+            </main>
+
+            <!-- Pestaña de Resumen Evolutivo Final (Nuevo) -->
+            <main id="result-screen" class="screen">
+                <header>
+                    <h1>Reporte Evolutivo Final</h1>
+                </header>
+                <div class="card result-card">
+                    <div class="score-ring">
+                        <span id="score-correct">0</span> / <span id="score-total">0</span>
+                    </div>
+                    <h2>Nivel de Rentabilidad Táctica</h2>
+
+                    <div class="insight-box">
+                        <h3>Análisis de la IA:</h3>
+                        <p id="ia-insight">Analizando tus resultados para el próximo ciclo...</p>
+                    </div>
+
+                    <div id="result-history-summary" class="result-history-summary"></div>
+
+                    <div id="feedback-summary" class="feedback-summary-grid">
+                        <!-- Detalle por área -->
+                    </div>
+
+                    <button class="btn btn-primary mt-4" onclick="backToHome()">Volver al Dashboard</button>
+                </div>
+            </main>
+        </div> <!-- Final de main-content -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+    <script src="js/auth-gate.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/app.overrides.js" data-role="app-overrides"></script>
+    <script src="js/analytics.overrides.js"></script>
+</body>
+
+</html>
