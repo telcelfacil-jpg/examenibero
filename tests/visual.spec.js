@@ -103,6 +103,7 @@ test("dashboard, estrategia y oxford muestran contenido real", async ({ page }) 
     await page.locator(".lesson-item").nth(0).click();
     await expect(page.locator("#lesson-screen.active")).toBeVisible();
     await page.waitForFunction(() => document.querySelector("#lesson-text")?.textContent?.trim().length > 200);
+    await expect(page.locator("#lesson-screen")).not.toContainText("PrÃ¡ctica");
     await capture(page, "03-estrategia-lectura.png");
 
     await page.click("#step-2");
