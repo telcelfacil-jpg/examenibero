@@ -124,6 +124,35 @@ test("dashboard, estrategia y oxford muestran contenido real", async ({ page }) 
     await capture(page, "06-english-multimedia.png");
 });
 
+test("practica guiada no queda vacia en temas criticos", async ({ page }) => {
+    await page.goto("/");
+    await login(page);
+    await waitForOverrides(page);
+
+    await page.click("#nav-estrategia");
+    await expect(page.locator("#learning-menu-screen.active")).toBeVisible();
+
+    await page.locator(".lesson-item").nth(1).click();
+    await expect(page.locator("#lesson-screen.active")).toBeVisible();
+    await page.click("#step-3");
+    await expect(page.locator("#practice-area")).not.toContainText("Estamos curando nuevos reactivos");
+    await expect(page.locator("#practice-area")).toContainText(/Reactivo de practica|Reactivo de práctica|Relaciona las columnas|Ordena los elementos/);
+
+    await page.click("button.btn-back");
+    await page.locator(".lesson-item").nth(2).click();
+    await expect(page.locator("#lesson-screen.active")).toBeVisible();
+    await page.click("#step-3");
+    await expect(page.locator("#practice-area")).not.toContainText("Estamos curando nuevos reactivos");
+
+    await page.click("button.btn-back");
+    await page.evaluate(() => enterModule("aprendizaje", null, "CIENCIAS NATURALES"));
+    await expect(page.locator("#learning-menu-screen.active")).toBeVisible();
+    await page.locator(".lesson-item").nth(2).click();
+    await expect(page.locator("#lesson-screen.active")).toBeVisible();
+    await page.click("#step-3");
+    await expect(page.locator("#practice-area")).not.toContainText("Estamos curando nuevos reactivos");
+});
+
 test("curaduria de videos por materia queda aplicada en el syllabus", async ({ page }) => {
     await page.goto("/");
     await login(page);
@@ -222,4 +251,32 @@ test("simulador adaptativo y examen demo integral recorren el flujo", async ({ p
     await expect(page.locator("#home-screen.active")).toBeVisible();
     await expect(page.locator("#recent-sessions .session-history-item")).toHaveCount(2);
     await expect(page.locator("#evolution-domains .domain-progress-card")).toHaveCount(6);
+});
+
+test("backend autentica sesion y persiste progreso", async ({ page }) => {
+    await page.goto("/");
+    await login(page);
+    await waitForOverrides(page);
+
+    const session = await page.evaluate(async () => {
+        const response = await fetch("/api/auth/session", { credentials: "include" });
+        return response.json();
+    });
+
+    expect(session.authenticated).toBeTruthy();
+    expect(session.user.username).toBe("ari");
+
+    await page.locator(".card-simulador").click();
+    await expect(page.locator("#quiz-screen.active")).toBeVisible();
+    await answerCurrentQuestion(page, true);
+    await page.waitForTimeout(1200);
+
+    const progress = await page.evaluate(async () => {
+        const response = await fetch("/api/progress", { credentials: "include" });
+        return response.json();
+    });
+
+    expect(progress.user.username).toBe("ari");
+    expect(progress.performance).toBeTruthy();
+    expect(progress.analytics).toBeTruthy();
 });

@@ -4,6 +4,7 @@ test-results/
 playwright-report/
 .wrangler/
 dist-pages/
+backend/data/app-db.json
 *.log
 Thumbs.db
 Desktop.ini

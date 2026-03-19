@@ -25,7 +25,7 @@
                 <input id="auth-password" name="password" type="password" autocomplete="current-password" placeholder="Password">
                 <button type="submit" class="btn btn-primary auth-submit">Entrar</button>
                 <p id="auth-error" class="auth-error hidden">Usuario o password incorrecto.</p>
-                <p class="auth-note">Esta proteccion es basica para navegador. Para seguridad real en internet necesitaremos autenticacion del lado del servidor o un proveedor externo.</p>
+                <p class="auth-note">Si el backend esta activo, el acceso y el progreso se validan desde el servidor. Si no, la app usara el modo local de respaldo.</p>
             </form>
         </div>
     </div>
@@ -81,7 +81,7 @@
                 <button class="nav-item secondary-auth" onclick="logoutApp()">
                     <span class="nav-icon">ðŸ”’</span> Cerrar Sesion
                 </button>
-                <p>Simulador Ibero v1.6</p>
+                <p>Simulador Ibero v1.7</p>
             </div>
         </aside>
 
@@ -98,7 +98,7 @@
                         <span class="avatar">A</span>
                         <div class="welcome-text">
                             <p>Hola de nuevo,</p>
-                            <h1>Ariadna</h1>
+                            <h1 id="welcome-user-name">Ariadna</h1>
                         </div>
                     </div>
                     <div class="quick-actions hidden">
@@ -155,8 +155,8 @@
                     <div class="module-card card-placement" onclick="startPlacementTest()">
                         <div class="card-icon">⚡</div>
                         <div class="card-content">
-                            <h2>Placement Test</h2>
-                            <p>Examen de Ubicación: Descubre tu nivel ahora.</p>
+                            <h2>Test de habilidades</h2>
+                            <p>Diagnostico de ingles: descubre tu nivel actual.</p>
                         </div>
                     </div>
 
@@ -174,7 +174,7 @@
                     <div class="section-head">
                         <div>
                             <h3>EvoluciÃ³n del Aprendizaje</h3>
-                            <p id="evolution-summary">Tu progreso acumulado aparecerÃ¡ aquÃ­ conforme completes sesiones.</p>
+                            <p id="evolution-summary">Tu progreso acumulado aparecera aqui conforme completes sesiones.</p>
                         </div>
                     </div>
                     <div id="evolution-kpis" class="evolution-kpi-grid"></div>
@@ -333,10 +333,12 @@
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+    <script src="js/backend-client.js"></script>
     <script src="js/auth-gate.js"></script>
     <script src="js/app.js"></script>
     <script src="js/app.overrides.js" data-role="app-overrides"></script>
     <script src="js/analytics.overrides.js"></script>
+    <script src="js/backend-sync.js"></script>
     <script src="js/mojibake-fix.js"></script>
 </body>
 

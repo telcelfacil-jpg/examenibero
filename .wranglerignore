@@ -1,0 +1,11 @@
+node_modules
+artifacts
+test-results
+playwright-report
+.git
+.wrangler
+backend/data/app-db.json
+tools
+tests
+*.docx
+*.log

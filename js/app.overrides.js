@@ -12,6 +12,177 @@ Con eso volveran a cargarse textos, preguntas y videos.`;
 
 state.safeEntries.lessonFallback = localLessonFallback;
 
+function extendAlias(label, additions) {
+    const normalized = normalizeText(label);
+    const existingKey = Object.keys(topicAliases).find((key) => normalizeText(key) === normalized) || label;
+    const current = Array.isArray(topicAliases[existingKey]) ? topicAliases[existingKey] : [];
+    topicAliases[existingKey] = [...new Set([...current, ...additions])];
+}
+
+extendAlias("Tecnicas de Descarte", [
+    "Pensamiento Critico y Descarte Directo",
+    "Descarte de Opciones",
+    "Metodos y Tecnicas",
+    "Gestion del Tiempo"
+]);
+extendAlias("Psicologia de Examen", [
+    "Gestion del Tiempo",
+    "Fundamentos y Reglas Tacticas",
+    "Metodos y Tecnicas"
+]);
+extendAlias("Energia", [
+    "Fisica y Quimica",
+    "Calentamiento global y medio ambiente",
+    "Ciencias Naturales y Experimentales",
+    "Luz, sonido y calor"
+]);
+extendAlias("Ecologia", [
+    "Ambientes y ecosistemas",
+    "Calentamiento global y medio ambiente"
+]);
+extendAlias("Economia", [
+    "Economia"
+]);
+extendAlias("Writing", [
+    "Writing",
+    "Grammar",
+    "Utilizacion del ingles"
+]);
+extendAlias("Figuras y cuerpos geometricos", [
+    "Figuras geometricas",
+    "Geometria"
+]);
+
+const practiceFallbackBank = {
+    "mat-e2": [
+        {
+            prompt: "Si dos opciones parecen correctas, que estrategia conviene aplicar primero?",
+            options: [
+                { text: "Elegir la mas larga sin revisar la consigna", correct: false },
+                { text: "Volver al verbo clave y descartar la que no responde exactamente", correct: true },
+                { text: "Cambiar la respuesta al azar para avanzar", correct: false }
+            ]
+        },
+        {
+            prompt: "Un distractor suele reconocerse porque:",
+            options: [
+                { text: "Usa palabras extremas o se aleja de lo que pide el reactivo", correct: true },
+                { text: "Siempre es la opcion mas corta", correct: false },
+                { text: "Coincide con cualquier dato aunque no responda la pregunta", correct: false }
+            ]
+        }
+    ],
+    "mat-e3": [
+        {
+            prompt: "Si te bloqueas en una pregunta durante el examen, lo mejor es:",
+            options: [
+                { text: "Quedarte hasta resolverla completa", correct: false },
+                { text: "Respirar, marcarla y pasar a la siguiente para volver despues", correct: true },
+                { text: "Cambiar todas tus respuestas anteriores", correct: false }
+            ]
+        },
+        {
+            prompt: "La respiracion guiada antes de retomar una pregunta dificil ayuda a:",
+            options: [
+                { text: "Reducir tension y recuperar foco", correct: true },
+                { text: "Aumentar el tiempo por pregunta", correct: false },
+                { text: "Memorizar la respuesta correcta", correct: false }
+            ]
+        }
+    ],
+    "sci-3": [
+        {
+            prompt: "Cual ejemplo muestra una fuente de energia termica?",
+            options: [
+                { text: "Una lampara apagada", correct: false },
+                { text: "Una estufa que calienta agua", correct: true },
+                { text: "Una regla de plastico", correct: false }
+            ]
+        },
+        {
+            prompt: "El sonido se produce cuando:",
+            options: [
+                { text: "Un objeto vibra y esas vibraciones se transmiten", correct: true },
+                { text: "La luz se refleja en una superficie", correct: false },
+                { text: "El aire deja de moverse por completo", correct: false }
+            ]
+        }
+    ],
+    "sci-4": [
+        {
+            prompt: "En un ecosistema, los productores son los seres que:",
+            options: [
+                { text: "Fabrican su alimento, como las plantas", correct: true },
+                { text: "Se alimentan de otros animales", correct: false },
+                { text: "Descomponen rocas y metales", correct: false }
+            ]
+        }
+    ],
+    "soc-5": [
+        {
+            prompt: "Que actividad pertenece al sector secundario?",
+            options: [
+                { text: "Cultivar maiz", correct: false },
+                { text: "Transformar leche en queso en una fabrica", correct: true },
+                { text: "Vender boletos de cine", correct: false }
+            ]
+        }
+    ],
+    "eng-4": [
+        {
+            prompt: "Which sentence works best as the opening of a short email?",
+            options: [
+                { text: "Dear Ana, How are you?", correct: true },
+                { text: "Blue table quickly", correct: false },
+                { text: "Yesterday because school", correct: false }
+            ]
+        }
+    ],
+    "mat-8": [
+        {
+            prompt: "Como se llama la linea donde se unen dos caras de un prisma?",
+            options: [
+                { text: "Vertice", correct: false },
+                { text: "Arista", correct: true },
+                { text: "Base", correct: false }
+            ]
+        }
+    ]
+};
+
+function buildFallbackPracticeQuestion(lessonId) {
+    const bank = practiceFallbackBank[lessonId] || [];
+    if (bank.length === 0) return null;
+    return bank[Math.floor(Math.random() * bank.length)];
+}
+
+function appendInfoCard(videoGrid, title, points) {
+    const card = document.createElement("div");
+    card.className = "video-card";
+    card.innerHTML = `
+        <div class="video-label">${title}</div>
+        <div class="info-card">
+            ${(points || []).map((point) => `<p>${point}</p>`).join("")}
+        </div>
+    `;
+    videoGrid.appendChild(card);
+}
+
+function ensureFallbackMultimedia(videoGrid) {
+    if (!videoGrid || videoGrid.children.length > 0) return;
+
+    appendInfoCard(videoGrid, "Guia de observacion", [
+        "Identifica la idea clave del tema antes de practicar.",
+        "Anota dos palabras importantes y una duda concreta.",
+        "Vuelve a practica con esa idea como foco."
+    ]);
+    appendInfoCard(videoGrid, "Puente hacia practica", [
+        "Resume el concepto en una frase corta.",
+        "Piensa en un ejemplo real o escolar.",
+        "Usa ese ejemplo para resolver el reactivo."
+    ]);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     const warning = document.querySelector("#cors-warning p");
     if (warning) {
@@ -45,73 +216,11 @@ async function fetchLessonContent(filename) {
             `;
         }
         return await res.text();
-    } catch (e) {
-        return `<div class="error-msg">Error al cargar la leccion: ${e.message}</div>`;
+    } catch (error) {
+        return `<div class="error-msg">Error al cargar la leccion: ${error.message}</div>`;
     }
 }
-
 window.fetchLessonContent = fetchLessonContent;
-
-function startTimer(seconds = 45) {
-    clearInterval(state.timerInterval);
-    state.timeLeft = seconds;
-    updateTimerUI();
-    state.timerInterval = setInterval(() => {
-        state.timeLeft--;
-        updateTimerUI();
-        if (state.timeLeft <= 0) {
-            clearInterval(state.timerInterval);
-            handleTimeout();
-        }
-    }, 1000);
-}
-
-function updateTimerUI() {
-    const minutes = Math.floor(state.timeLeft / 60);
-    const seconds = state.timeLeft % 60;
-    dom.quizTimer.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-    dom.quizTimer.style.color = state.timeLeft <= 15 ? 'var(--danger)' : 'var(--text-muted)';
-}
-
-function handleTimeout() {
-    const question = state.session.questions[state.session.currentIndex];
-    if (!question || !dom.quizFeedback.classList.contains('hidden')) return;
-
-    registerSessionResult(question, false);
-    recordPerformance(question.tema || question.materia, false);
-    Array.from(dom.quizOpciones.children).forEach((child) => child.classList.add('disabled'));
-    dom.fTitle.textContent = "â±ï¸ Â¡Tiempo Agotado!";
-    dom.fText.textContent = "Se registrÃ³ como oportunidad de mejora. Aplica la regla de decidir y avanzar.";
-    showFeedback(false);
-}
-
-async function startPlacementTest() {
-    if (!state.allQuestions || state.allQuestions.length === 0) {
-        await fetchQuestions();
-    }
-
-    const englishQuestions = shuffleArray(state.allQuestions.filter((question) => isEnglishQuestion(question)));
-    state.session.mode = 'placement';
-    state.session.metadata = {
-        title: 'Test de habilidades',
-        subtitle: 'DiagnÃ³stico Oxford con estimaciÃ³n de nivel CEFR.'
-    };
-    state.session.questions = englishQuestions
-        .slice(0, Math.min(24, englishQuestions.length))
-        .map((question) => cloneQuestion(question, { timeLimit: 75, sectionLabel: 'Oxford English Placement' }));
-    state.session.currentIndex = 0;
-    state.session.tempScore = 0;
-    state.session.resultsByTopic = {};
-
-    if (state.session.questions.length === 0) {
-        alert("No hay suficientes reactivos de inglÃ©s cargados para ejecutar el diagnÃ³stico.");
-        return;
-    }
-
-    switchScreen('quiz-screen');
-    renderQuestion();
-}
-window.startPlacementTest = startPlacementTest;
 
 async function loadLesson(event, lesson, categoryTitle, targetPhase = 1) {
     if (event) event.stopPropagation();
@@ -122,29 +231,31 @@ async function loadLesson(event, lesson, categoryTitle, targetPhase = 1) {
     switchPhase(targetPhase);
 
     const text = await fetchLessonContent(lesson.file);
-    document.getElementById('lesson-text').innerHTML = marked.parse(text);
+    document.getElementById("lesson-text").innerHTML = marked.parse(text);
 
-    const audioContainer = document.getElementById('audio-player-container');
-    const videoGrid = document.querySelector('.video-grid');
-    const multimediaStep = document.getElementById('step-2');
+    const audioContainer = document.getElementById("audio-player-container");
+    const videoGrid = document.querySelector(".video-grid");
+    const multimediaStep = document.getElementById("step-2");
 
     if (lesson.audio) {
-        audioContainer.classList.remove('hidden');
+        audioContainer.classList.remove("hidden");
         dom.lessonAudio.src = lesson.audio;
     } else {
-        audioContainer.classList.add('hidden');
+        audioContainer.classList.add("hidden");
+        dom.lessonAudio.removeAttribute("src");
     }
 
     videoGrid.innerHTML = "";
-    const validVideos = (lesson.videos || []).filter((video) =>
-        video.url && video.url.trim() !== "" && !video.url.includes("EJEMPLO") && !video.url.includes("videos_placeholder")
-    );
+
+    const validVideos = (lesson.videos || []).filter((video) => {
+        return Boolean(video && video.url && video.url.trim() && !video.url.includes("EJEMPLO") && !video.url.includes("videos_placeholder"));
+    });
 
     validVideos.forEach((video) => {
-        const card = document.createElement('div');
-        card.className = 'video-card';
+        const card = document.createElement("div");
+        card.className = "video-card";
 
-        if (video.isLocal || video.url.endsWith('.mp4')) {
+        if (video.isLocal || video.url.endsWith(".mp4")) {
             card.innerHTML = `
                 <div class="video-label">${video.title}</div>
                 <video controls preload="auto" playsinline class="rounded shadow-sm">
@@ -153,70 +264,76 @@ async function loadLesson(event, lesson, categoryTitle, targetPhase = 1) {
                 </video>
             `;
         } else {
-            const secureUrl = video.url.includes('?') ? `${video.url}&rel=0&modestbranding=1` : `${video.url}?rel=0&modestbranding=1`;
+            const secureUrl = video.url.includes("?") ? `${video.url}&rel=0&modestbranding=1` : `${video.url}?rel=0&modestbranding=1`;
             card.innerHTML = `<div class="video-label">${video.title}</div><iframe src="${secureUrl}" frameborder="0" allowfullscreen></iframe>`;
         }
 
         videoGrid.appendChild(card);
     });
 
-    if (lesson.mediaHighlights && lesson.mediaHighlights.length > 0) {
-        lesson.mediaHighlights.forEach((highlight) => {
-            const card = document.createElement('div');
-            card.className = 'video-card';
-            card.innerHTML = `
-                <div class="video-label">${highlight.title}</div>
-                <div class="info-card">
-                    ${(highlight.points || []).map((point) => `<p>${point}</p>`).join('')}
-                </div>
-            `;
-            videoGrid.appendChild(card);
-        });
-    }
+    (lesson.mediaHighlights || []).forEach((highlight) => {
+        appendInfoCard(videoGrid, highlight.title, highlight.points || []);
+    });
+
+    ensureFallbackMultimedia(videoGrid);
 
     if (videoGrid.children.length === 0 && !lesson.audio) {
-        if (multimediaStep) multimediaStep.style.display = 'none';
+        if (multimediaStep) multimediaStep.style.display = "none";
     } else {
-        if (multimediaStep) multimediaStep.style.display = 'flex';
+        if (multimediaStep) multimediaStep.style.display = "flex";
     }
 
     renderPracticeSet(lesson.id);
-    switchScreen('lesson-screen');
+    switchScreen("lesson-screen");
 }
 window.loadLesson = loadLesson;
 
 async function renderPracticeSet() {
-    const practiceArea = document.getElementById('practice-area');
+    const practiceArea = document.getElementById("practice-area");
     const allQuestions = await loadQuestions();
-    const topicPool = shuffleArray(getTopicPool(allQuestions, state.currentLesson.dbTopic || state.currentLesson.title, state.currentLesson.title));
+    const lesson = state.currentLesson;
+    const topicPool = shuffleArray(getTopicPool(allQuestions, lesson.dbTopic || lesson.title, lesson.title));
+    const fallbackPractice = buildFallbackPracticeQuestion(lesson.id);
 
-    if (topicPool.length === 0) {
-        practiceArea.innerHTML = "<p>Estamos curando nuevos reactivos para este tema. Mientras tanto, revisa la lectura y la guÃ­a multimedia.</p>";
+    if (topicPool.length === 0 && !fallbackPractice) {
+        practiceArea.innerHTML = "<p>Estamos curando nuevos reactivos para este tema. Mientras tanto, revisa la lectura y la guia multimedia.</p>";
         return;
     }
 
-    const question = cloneQuestion(topicPool[0]);
-    let questionHtml = '';
+    const question = topicPool.length > 0 ? cloneQuestion(topicPool[0]) : null;
+    let questionHtml = "";
 
-    if (question.tipo === 'ordenamiento' && question.elementos) {
+    if (!question && fallbackPractice) {
+        questionHtml = `
+            <div class="practice-card">
+                <p><strong>Reactivo de practica:</strong> ${fallbackPractice.prompt}</p>
+                <div class="options-grid">
+                    ${fallbackPractice.options.map((option) => `
+                        <button class="btn-option" onclick="checkPractice(this, ${option.correct})">${option.text}</button>
+                    `).join("")}
+                </div>
+                <p id="practice-feedback" class="mt-2 hidden"></p>
+            </div>
+        `;
+    } else if (question.tipo === "ordenamiento" && question.elementos) {
         questionHtml = `
             <div class="practice-card">
                 <p><strong>Ordena los elementos:</strong> ${question.pregunta}</p>
                 <div id="sortable-list" class="list-group mb-3">
-                    ${question.elementos.map((option) => `<div class="list-group-item p-3 border rounded mb-2 bg-white cursor-pointer" data-id="${option.id}">${option.texto}</div>`).join('')}
+                    ${question.elementos.map((option) => `<div class="list-group-item p-3 border rounded mb-2 bg-white cursor-pointer" data-id="${option.id}">${option.texto}</div>`).join("")}
                 </div>
-                <button class="btn btn-primary mt-3" onclick="checkOrderingPractice('${question.respuesta_correcta.join(',')}')">Verificar Orden</button>
+                <button class="btn btn-primary mt-3" onclick="checkOrderingPractice('${question.respuesta_correcta.join(",")}')">Verificar orden</button>
                 <p id="practice-feedback" class="mt-2 hidden"></p>
             </div>
         `;
-    } else if (question.tipo === 'relacion_columnas' && question.columnas) {
+    } else if (question.tipo === "relacion_columnas" && question.columnas) {
         questionHtml = `
             <div class="practice-card">
                 <p><strong>Relaciona las columnas:</strong> ${question.pregunta}</p>
                 <div class="row">
                     <div class="col-6">
                         <ul class="list-unstyled">
-                            ${question.columnas.izquierda.map((item) => `<li class="p-2 border rounded mb-2 bg-light">${item.id}. ${item.texto}</li>`).join('')}
+                            ${question.columnas.izquierda.map((item) => `<li class="p-2 border rounded mb-2 bg-light">${item.id}. ${item.texto}</li>`).join("")}
                         </ul>
                     </div>
                     <div class="col-6">
@@ -226,22 +343,22 @@ async function renderPracticeSet() {
                                     <input type="text" class="match-input form-control me-2" style="width:50px" data-id="${item.id}">
                                     <span>${item.texto}</span>
                                 </li>
-                            `).join('')}
+                            `).join("")}
                         </ul>
                     </div>
                 </div>
-                <button class="btn btn-primary mt-3" onclick="checkMatchingPractice('${JSON.stringify(question.respuesta_correcta)}')">Verificar RelaciÃ³n</button>
+                <button class="btn btn-primary mt-3" onclick="checkMatchingPractice('${JSON.stringify(question.respuesta_correcta)}')">Verificar relacion</button>
                 <p id="practice-feedback" class="mt-2 hidden"></p>
             </div>
         `;
     } else {
         questionHtml = `
             <div class="practice-card">
-                <p><strong>Reactivo de PrÃ¡ctica:</strong> ${question.pregunta}</p>
+                <p><strong>Reactivo de practica:</strong> ${question.pregunta}</p>
                 <div class="options-grid">
                     ${question.opciones.map((option) => `
                         <button class="btn-option" onclick="checkPractice(this, ${option.id === question.respuesta_correcta})">${option.texto}</button>
-                    `).join('')}
+                    `).join("")}
                 </div>
                 <p id="practice-feedback" class="mt-2 hidden"></p>
             </div>
@@ -250,223 +367,78 @@ async function renderPracticeSet() {
 
     practiceArea.innerHTML = questionHtml;
 
-    const sortList = document.getElementById('sortable-list');
-    if (sortList && typeof Sortable !== 'undefined') {
+    const sortList = document.getElementById("sortable-list");
+    if (sortList && typeof Sortable !== "undefined") {
         new Sortable(sortList, { animation: 150 });
     }
 }
+window.renderPracticeSet = renderPracticeSet;
 
-async function initiateFinalDemoExam() {
-    const allPool = await loadQuestions();
-    if (!allPool || allPool.length === 0) {
-        alert("Error: No hay preguntas cargadas.");
-        return;
-    }
-
-    state.session.mode = 'demo-final';
-    state.session.metadata = {
-        title: 'Examen Demo Integral',
-        subtitle: '100 reactivos organizados por secciones y tiempos de referencia.'
-    };
-    state.session.questions = buildSectionedDemoExam(allPool);
-    state.session.currentIndex = 0;
-    state.session.tempScore = 0;
-    state.session.resultsByTopic = {};
-
-    switchScreen('quiz-screen');
-    renderQuestion();
+function startTimer(seconds = 45) {
+    clearInterval(state.timerInterval);
+    state.timeLeft = Number(seconds || 45);
+    updateTimerUI();
+    state.timerInterval = setInterval(() => {
+        state.timeLeft -= 1;
+        updateTimerUI();
+        if (state.timeLeft <= 0) {
+            clearInterval(state.timerInterval);
+            handleTimeout();
+        }
+    }, 1000);
 }
-window.initiateFinalDemoExam = initiateFinalDemoExam;
+window.startTimer = startTimer;
 
-async function startApp(mode, topicFilter = null) {
-    state.session.mode = mode;
-    state.session.tempScore = 0;
-    state.session.currentIndex = 0;
-    state.session.resultsByTopic = {};
-    state.session.metadata = {};
-
-    const allData = await loadQuestions();
-
-    if (mode === 'estrategia') {
-        state.session.metadata = {
-            title: 'PrÃ¡ctica de Estrategia',
-            subtitle: 'Domina descarte, ritmo y toma de decisiones.'
-        };
-        state.session.questions = shuffleArray(
-            allData.filter((question) => normalizeText(question.materia).includes('estrategia') || normalizeText(question.materia).includes('examen'))
-        ).slice(0, 12).map((question) => cloneQuestion(question, { timeLimit: 50 }));
-    } else if (topicFilter) {
-        state.session.metadata = {
-            title: 'EvaluaciÃ³n de tema',
-            subtitle: `ValidaciÃ³n de aprendizaje enfocada en ${topicFilter}.`
-        };
-        state.session.questions = shuffleArray(getTopicPool(allData, topicFilter, state.currentLesson?.title || topicFilter))
-            .slice(0, 10)
-            .map((question) => cloneQuestion(question, { timeLimit: 60 }));
-    } else {
-        state.session.metadata = {
-            title: 'Simulador Adaptativo',
-            subtitle: 'Refuerzo inteligente segÃºn tus Ã¡reas de oportunidad.'
-        };
-        state.session.questions = buildAdaptiveQuestionSet(allData, 15);
-    }
-
-    if (state.session.questions.length === 0) {
-        alert("No hay suficientes reactivos vinculados a este tema. Necesitamos ampliar este bloque antes de evaluarlo.");
-        return;
-    }
-
-    switchScreen('quiz-screen');
-    renderQuestion();
+function updateTimerUI() {
+    const minutes = Math.floor(state.timeLeft / 60);
+    const seconds = state.timeLeft % 60;
+    dom.quizTimer.textContent = `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+    dom.quizTimer.style.color = state.timeLeft <= 15 ? "var(--danger)" : "var(--text-muted)";
 }
-window.startApp = startApp;
+window.updateTimerUI = updateTimerUI;
 
 function renderQuestion() {
     const question = state.session.questions[state.session.currentIndex];
     if (!question) return;
 
-    dom.quizBadge.textContent = question.sectionLabel || question.materia;
-    dom.quizTema.textContent = question.tema || state.session.metadata.title || 'PrÃ¡ctica guiada';
-    dom.quizProgress.style.width = `${(state.session.currentIndex / state.session.questions.length) * 100}%`;
+    dom.quizBadge.textContent = question.sectionLabel || question.materia || "Sesion";
+    dom.quizTema.textContent = question.tema || state.session.metadata.subtitle || "";
+    dom.quizPregunta.textContent = question.pregunta || "Reactivo sin contenido";
+    dom.quizProgress.style.width = `${(state.session.currentIndex / Math.max(state.session.questions.length, 1)) * 100}%`;
     dom.quizOpciones.innerHTML = "";
-    dom.quizFeedback.classList.add('hidden');
+    dom.quizFeedback.classList.add("hidden");
     dom.quizFeedback.className = "feedback-container hidden";
 
-    if (question.tipo === 'informativo') {
+    if (question.tipo === "informativo") {
         dom.quizPregunta.innerHTML = formatMarkdown(question.contenido);
-        const nextBtn = document.createElement('button');
-        nextBtn.className = 'btn btn-primary mt-4';
-        nextBtn.textContent = 'Entendido, Continuar';
+        const nextBtn = document.createElement("button");
+        nextBtn.className = "btn btn-primary mt-4";
+        nextBtn.textContent = "Continuar";
         nextBtn.onclick = () => nextQuestion();
         dom.quizOpciones.appendChild(nextBtn);
+        clearInterval(state.timerInterval);
         return;
     }
 
-    dom.quizPregunta.textContent = question.pregunta;
-
-    if (question.tipo === 'opcion_multiple') {
-        question.opciones.forEach((option, index) => {
-            const div = document.createElement('div');
-            div.className = 'option';
-            div.textContent = `${['A', 'B', 'C', 'D'][index]}) ${option.texto}`;
-            div.onclick = () => selectOption(option.id, div);
-            dom.quizOpciones.appendChild(div);
-        });
-        startTimer(question.timeLimit || 45);
+    if (question.tipo !== "opcion_multiple" || !Array.isArray(question.opciones)) {
+        dom.quizPregunta.textContent = `${question.pregunta} (Este tipo de reactivo se resuelve en la fase de practica).`;
+        const skipBtn = document.createElement("button");
+        skipBtn.className = "btn btn-secondary mt-4";
+        skipBtn.textContent = "Siguiente reactivo";
+        skipBtn.onclick = () => nextQuestion();
+        dom.quizOpciones.appendChild(skipBtn);
+        clearInterval(state.timerInterval);
         return;
     }
 
-    dom.quizPregunta.textContent = `${question.pregunta} (Este tipo de reactivo se trabaja primero en modo prÃ¡ctica guiada).`;
-    const skipBtn = document.createElement('button');
-    skipBtn.className = 'btn btn-secondary mt-4';
-    skipBtn.textContent = 'Siguiente Reactivo';
-    skipBtn.onclick = () => nextQuestion();
-    dom.quizOpciones.appendChild(skipBtn);
-}
-
-function selectOption(selectedId, element) {
-    if (!dom.quizFeedback.classList.contains('hidden')) return;
-
-    clearInterval(state.timerInterval);
-    const question = state.session.questions[state.session.currentIndex];
-    const isCorrect = selectedId === question.respuesta_correcta;
-
-    registerSessionResult(question, isCorrect);
-    recordPerformance(question.tema || question.materia, isCorrect);
-
-    Array.from(dom.quizOpciones.children).forEach((child) => child.classList.add('disabled'));
-    element.classList.add('selected', isCorrect ? 'correct' : 'incorrect');
-
-    if (isCorrect) state.session.tempScore++;
-
-    dom.fTitle.textContent = isCorrect ? "âœ… Respuesta Correcta" : "âŒ Respuesta Incorrecta";
-    dom.fText.textContent = question.explicacion || "Revisa la lectura y vuelve a intentarlo con foco en la idea principal.";
-    showFeedback(isCorrect);
-}
-
-function recordPerformance(topic, isCorrect) {
-    if (!topic) return;
-
-    if (!state.user.profile.performance[topic]) {
-        state.user.profile.performance[topic] = { correct: 0, total: 0, priority: 1 };
-    }
-
-    const performance = state.user.profile.performance[topic];
-    performance.total++;
-    if (isCorrect) {
-        performance.correct++;
-    }
-
-    const accuracy = performance.correct / performance.total;
-    performance.priority = Number((1.6 - accuracy + (performance.total < 4 ? 0.15 : 0)).toFixed(2));
-
-    localStorage.setItem('ari_performance', JSON.stringify(state.user.profile.performance));
-}
-
-function showResultsUI() {
-    clearInterval(state.timerInterval);
-    switchScreen('result-screen');
-
-    dom.reportCorrect.textContent = state.session.tempScore;
-    dom.reportTotal.textContent = state.session.questions.length;
-
-    if (dom.resultTitle) {
-        dom.resultTitle.textContent = state.session.metadata.title || 'Reporte Evolutivo Final';
-    }
-    if (dom.resultSubtitle) {
-        dom.resultSubtitle.textContent = state.session.metadata.subtitle || 'Resumen de la sesiÃ³n mÃ¡s reciente.';
-    }
-
-    renderIAInsights();
-}
-
-function renderIAInsights() {
-    dom.reportSummary.innerHTML = "";
-
-    const resultEntries = Object.entries(state.session.resultsByTopic);
-    const weakAreas = [];
-
-    resultEntries.forEach(([label, result]) => {
-        const percentage = result.total > 0 ? Math.round((result.correct / result.total) * 100) : 0;
-        let status = "EN PROCESO";
-        let statusClass = "neutral";
-
-        if (percentage >= 85) {
-            status = "DOMINADO";
-            statusClass = "high";
-        } else if (percentage < 60) {
-            status = "PRIORIDAD";
-            statusClass = "low";
-            weakAreas.push(label);
-        }
-
-        const card = document.createElement('div');
-        card.className = `insight-card ${percentage < 60 ? 'low' : 'high'}`;
-        card.innerHTML = `
-            <div class="card-header">
-                <strong>${label}</strong>
-                <span class="badge ${statusClass}">${status}</span>
-            </div>
-            <div class="pct-bar"><div class="fill" style="width: ${percentage}%"></div></div>
-            <span>${percentage}% de aciertos en esta sesiÃ³n</span>
-        `;
-        dom.reportSummary.appendChild(card);
+    question.opciones.forEach((option, index) => {
+        const div = document.createElement("div");
+        div.className = "option";
+        div.textContent = `${["A", "B", "C", "D"][index] || "-"} ) ${option.texto}`;
+        div.onclick = () => selectOption(option.id, div);
+        dom.quizOpciones.appendChild(div);
     });
 
-    if (state.session.mode === 'placement') {
-        const placement = getPlacementLevel(state.session.tempScore, state.session.questions.length);
-        dom.reportInsight.innerHTML = `Nivel estimado actual: <strong>${placement.label}</strong> (${placement.percentage}% de aciertos). ${placement.description}${weakAreas.length > 0 ? `<br>Conviene reforzar: <strong>${weakAreas.join(', ')}</strong>.` : ''}`;
-        return;
-    }
-
-    if (state.session.mode === 'demo-final') {
-        dom.reportInsight.innerHTML = weakAreas.length > 0
-            ? `El examen demo detectÃ³ presiÃ³n en estas secciones: <strong>${weakAreas.join(', ')}</strong>. Conviene regresar a los mÃ³dulos y repetir un simulador adaptativo focalizado.`
-            : "El examen demo se resolviÃ³ con un desempeÃ±o consistente. El siguiente paso es sostener el ritmo y practicar manejo de tiempo.";
-        return;
-    }
-
-    dom.reportInsight.innerHTML = weakAreas.length > 0
-        ? `La IA ha detectado que debemos priorizar: <strong>${weakAreas.join(', ')}</strong>.<br>El siguiente ciclo de trabajo se enfocarÃ¡ en reforzar solo esos conceptos.`
-        : "Buen desempeÃ±o en esta sesiÃ³n. El siguiente nivel puede aumentar dificultad y variedad de reactivos.";
+    startTimer(question.timeLimit || 45);
 }
+window.renderQuestion = renderQuestion;

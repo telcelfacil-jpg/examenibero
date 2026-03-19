@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "version": 1,
+    "createdAt": "2026-03-18T00:00:00.000Z"
+  },
+  "users": [
+    {
+      "id": "student-ari",
+      "username": "ari",
+      "displayName": "Ariadna",
+      "role": "student",
+      "password": {
+        "salt": "df42b9528f156f7ce4bf0acdb18f2354",
+        "hash": "a650e73e60f72b5239220cd7de0b6868228e1cd92f8b884ecee66241c424e51c"
+      },
+      "progress": {
+        "analytics": null,
+        "performance": null,
+        "updatedAt": null
+      },
+      "createdAt": "2026-03-18T00:00:00.000Z"
+    }
+  ],
+  "sessions": []
+}

@@ -1,0 +1,11 @@
+name = "examenibero"
+compatibility_date = "2026-03-18"
+pages_build_output_dir = "."
+
+# Copia este archivo a wrangler.toml y reemplaza el database_id real
+# si quieres desarrollar o desplegar con Wrangler.
+#
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "examenibero"
+# database_id = "REEMPLAZA_CON_TU_DATABASE_ID"

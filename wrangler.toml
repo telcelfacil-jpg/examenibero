@@ -1,0 +1,9 @@
+name = "examenibero"
+compatibility_date = "2026-03-18"
+pages_build_output_dir = "."
+
+[[d1_databases]]
+binding = "DB"
+database_name = "examenibero-db"
+database_id = "f9851fc3-dcd9-4c88-acb1-00f394d0493f"
+preview_database_id = "f9851fc3-dcd9-4c88-acb1-00f394d0493f"

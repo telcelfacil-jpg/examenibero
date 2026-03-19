@@ -4,16 +4,27 @@
   "description": "Sistema interactivo de preparación para el examen de admisión a la Secundaria Iberoamericana.",
   "main": "index.js",
   "scripts": {
-    "serve": "node tools/static-server.js",
+    "serve": "node tools/full-server.js",
+    "serve:static": "node tools/static-server.js",
+    "cf:dev": "wrangler pages dev .",
+    "cf:deploy": "wrangler pages deploy . --project-name examenibero",
+    "cf:d1:schema": "wrangler d1 execute examenibero-db --remote --file backend/d1/schema.sql",
+    "cf:d1:seed": "wrangler d1 execute examenibero-db --remote --file backend/d1/seed.sql",
     "test": "playwright test",
     "test:visual": "playwright test tests/visual.spec.js",
-    "test:visual:headed": "playwright test tests/visual.spec.js --headed"
+    "test:visual:headed": "playwright test tests/visual.spec.js --headed",
+    "create:student": "node tools/create-student.js",
+    "create:student:cf": "node tools/create-student-cloudflare.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.58.2"
+    "@playwright/test": "^1.58.2",
+    "wrangler": "^4.75.0"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.0.1"
   }
 }
