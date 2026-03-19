@@ -100,13 +100,13 @@ function resolvePath(requestUrl) {
     return normalizedPath;
 }
 
-function pbkdf2(password, salt) {
-    return crypto.pbkdf2Sync(password, salt, 120000, 32, "sha256").toString("hex");
+function hashPassword(password, salt) {
+    return crypto.createHash("sha256").update(`${salt}::${password}`, "utf8").digest("hex");
 }
 
 function verifyPassword(password, user) {
     if (!user?.password?.salt || !user?.password?.hash) return false;
-    const hashed = pbkdf2(password, user.password.salt);
+    const hashed = hashPassword(password, user.password.salt);
     return crypto.timingSafeEqual(Buffer.from(hashed, "hex"), Buffer.from(user.password.hash, "hex"));
 }
 

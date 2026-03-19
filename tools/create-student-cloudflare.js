@@ -15,7 +15,7 @@ if (!username || !password || !displayName) {
 }
 
 const salt = crypto.randomBytes(16).toString("hex");
-const hash = crypto.pbkdf2Sync(password, salt, 120000, 32, "sha256").toString("hex");
+const hash = crypto.createHash("sha256").update(`${salt}::${password}`, "utf8").digest("hex");
 const studentId = `student-${crypto.randomBytes(6).toString("hex")}`;
 const now = new Date().toISOString();
 const safeDisplayName = displayName.replace(/'/g, "''");

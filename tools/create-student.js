@@ -26,7 +26,7 @@ function writeDb(db) {
 
 function hashPassword(password) {
     const salt = crypto.randomBytes(16).toString("hex");
-    const hash = crypto.pbkdf2Sync(password, salt, 120000, 32, "sha256").toString("hex");
+    const hash = crypto.createHash("sha256").update(`${salt}::${password}`, "utf8").digest("hex");
     return { salt, hash };
 }
 

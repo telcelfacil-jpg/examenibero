@@ -1,17 +1,13 @@
 import { errorResponse } from "./responses.js";
 
-import { pbkdf2 as noblePbkdf2 } from "@noble/hashes/pbkdf2.js";
-import { sha256 } from "@noble/hashes/sha2.js";
-import { bytesToHex, utf8ToBytes } from "@noble/hashes/utils.js";
-
 const SESSION_COOKIE = "ari_session";
 
-export async function pbkdf2(password, saltHex) {
-    const derived = noblePbkdf2(sha256, utf8ToBytes(password), utf8ToBytes(saltHex), {
-        c: 120000,
-        dkLen: 32
-    });
-    return bytesToHex(derived);
+export async function hashPassword(password, salt) {
+    const digest = await crypto.subtle.digest(
+        "SHA-256",
+        new TextEncoder().encode(`${salt}::${password}`)
+    );
+    return Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, "0")).join("");
 }
 
 export function constantTimeEqual(left, right) {

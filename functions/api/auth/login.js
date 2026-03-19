@@ -1,4 +1,4 @@
-import { buildSessionCookie, constantTimeEqual, createSessionToken, pbkdf2 } from "../../_lib/auth.js";
+import { buildSessionCookie, constantTimeEqual, createSessionToken, hashPassword } from "../../_lib/auth.js";
 import { errorResponse, json } from "../../_lib/responses.js";
 
 export async function onRequestPost(context) {
@@ -25,7 +25,7 @@ export async function onRequestPost(context) {
             return errorResponse("Credenciales incorrectas.", 401, { authenticated: false });
         }
 
-        const computedHash = await pbkdf2(password, user.passwordSalt);
+        const computedHash = await hashPassword(password, user.passwordSalt);
         if (!constantTimeEqual(computedHash, user.passwordHash)) {
             return errorResponse("Credenciales incorrectas.", 401, { authenticated: false });
         }
